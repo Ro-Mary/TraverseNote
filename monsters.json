@@ -1,3 +1,6335 @@
 {
-    "monsters": []
+    "monsters": [
+        {
+            "tag": 1,
+            "name": {
+                "ko": "모르포",
+                "en": "Traverse Morpho",
+                "ja": "トラバース・パープルモルフォ"
+            },
+            "img": "./data/1-10/001.png",
+            "floors": [
+                1,
+                2
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "악몽",
+                        "en": "Incubus",
+                        "ja": "悪夢"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 2,
+            "name": {
+                "ko": "에케보어",
+                "en": "Traverse Echevore",
+                "ja": "トラバース・エケボア"
+            },
+            "img": "./data/1-10/002.png",
+            "floors": [
+                1,
+                2,
+                3
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "리프 커터",
+                        "en": "Leafcutter",
+                        "ja": "リーフカッター"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 3,
+            "name": {
+                "ko": "푸카",
+                "en": "Traverse Phooka",
+                "ja": "トラバース・プーカ"
+            },
+            "img": "./data/1-10/003.png",
+            "floors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "토네이도",
+                        "en": "Tornado",
+                        "ja": "トルネド"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 4,
+            "name": {
+                "ko": "슈라브레트",
+                "en": "Traverse Shrub",
+                "ja": "トラバース・シュラブレット"
+            },
+            "img": "./data/1-10/004.png",
+            "floors": [
+                1,
+                2,
+                3
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "풀바람",
+                        "en": "Rustling Wind",
+                        "ja": "草風"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 5,
+            "name": {
+                "ko": "호카",
+                "en": "Traverse Hawker",
+                "ja": "トラバース・ホーカー"
+            },
+            "img": "./data/1-10/005.png",
+            "floors": [
+                3,
+                4,
+                5
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "독액",
+                        "en": "Venom",
+                        "ja": "毒液"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 6,
+            "name": {
+                "ko": "모스훈구스(버섯)",
+                "en": "Traverse Moss Fungus",
+                "ja": "トラバース・モスフングス"
+            },
+            "img": "./data/1-10/006.png",
+            "floors": [
+                4,
+                5
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 7,
+            "name": {
+                "ko": "로완",
+                "en": "Traverse Rowan",
+                "ja": "トラバース・ローワン"
+            },
+            "img": "./data/1-10/007.png",
+            "floors": [
+                5,
+                6,
+                7
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "카노피",
+                        "en": "Canopy",
+                        "ja": "カノピー"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "백핸드 블로우",
+                        "en": "Backhand Blow",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 8,
+            "name": {
+                "ko": "로리키트",
+                "en": "Traverse Lorikeet",
+                "ja": "トラバース・ロリキート"
+            },
+            "img": "./data/1-10/008.png",
+            "floors": [
+                4,
+                5,
+                6
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "슬로우콜",
+                        "en": "Slowcall",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 9,
+            "name": {
+                "ko": "크레마치스",
+                "en": "Traverse Clematis",
+                "ja": "トラバース・クレマチス"
+            },
+            "img": "./data/1-10/009.png",
+            "floors": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "회전 공격",
+                        "en": "Spinning Attack",
+                        "ja": "スピンアタック"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": true,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 10,
+            "name": {
+                "ko": "킬러비",
+                "en": "Traverse Killer Bee",
+                "ja": "トラバース・キラービー"
+            },
+            "img": "./data/1-10/010.png",
+            "floors": [
+                6,
+                7
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "언파이널 스팅",
+                        "en": "Unfinal Sting",
+                        "ja": "アンファイナルスティング"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 11,
+            "name": {
+                "ko": "로즈베어",
+                "en": "Traverse Rosebear",
+                "ja": "トラバース・ローズベアー"
+            },
+            "img": "./data/1-10/011.png",
+            "floors": [
+                7,
+                8,
+                9
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "으깨기",
+                        "en": "Champ",
+                        "ja": "嚙み砕く"
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "온 마인드",
+                        "en": "Mind of Its Own",
+                        "ja": "オーンマインド"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 12,
+            "name": {
+                "ko": "에딘모스",
+                "en": "Traverse Etainmoth",
+                "ja": "トラバース・エーディンモス"
+            },
+            "img": "./data/1-10/012.png",
+            "floors": [
+                8,
+                9
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "꿈의 가루",
+                        "en": "Hypno Squama",
+                        "ja": "睡夢の鱗粉"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 13,
+            "name": {
+                "ko": "바스켓",
+                "en": "Traverse Basket",
+                "ja": "トラバース・バスケット"
+            },
+            "img": "./data/1-10/013.png",
+            "floors": [
+                8,
+                9
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "폴른 코로나",
+                        "en": "Pollen Corona",
+                        "ja": "ポレンコロナ"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 14,
+            "name": {
+                "ko": "꽃인간",
+                "en": "Ornamental Leafman",
+                "ja": "花人"
+            },
+            "img": "./data/1-10/014.png",
+            "floors": [
+                10
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss10.png"
+        },
+        {
+            "tag": 101,
+            "name": {
+                "ko": "이그노랜스",
+                "en": "Forgiven Ignorance",
+                "ja": "フォーギヴン・イグノランス"
+            },
+            "img": "./data/11-20/101.png",
+            "floors": [
+                11,
+                12,
+                13,
+                14
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "실크스크린",
+                        "en": "Silkscreen",
+                        "ja": "シルクスクリーン"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 102,
+            "name": {
+                "ko": "파크",
+                "en": "Traverse Puck",
+                "ja": "トラバース・パック"
+            },
+            "img": "./data/11-20/102.png",
+            "floors": [
+                11,
+                12
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "손뼉치기",
+                        "en": "Ovation",
+                        "ja": "手打ち"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 103,
+            "name": {
+                "ko": "컨포미티",
+                "en": "Forgiven Conformity",
+                "ja": "フォーギヴン・コンフォーミティー"
+            },
+            "img": "./data/11-20/103.png",
+            "floors": [
+                11,
+                12,
+                13
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "파울 바이트",
+                        "en": "Foul Bite",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "강공격.",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 104,
+            "name": {
+                "ko": "토토 에이비스",
+                "en": "Traverse Tot Aevis",
+                "ja": "トラバース・トートエイビス"
+            },
+            "img": "./data/11-20/104.png",
+            "floors": [
+                11,
+                12,
+                13
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "트랜소닉 블래스트",
+                        "en": "Transonic Blast",
+                        "ja": "トランソニックブラスト"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 105,
+            "name": {
+                "ko": "피즈 블로섬",
+                "en": "Traverse Peaseblossom",
+                "ja": "トラバース・ピーズブロッサム"
+            },
+            "img": "./data/11-20/105.png",
+            "floors": [
+                13,
+                14,
+                15
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "리프 토네이도",
+                        "en": "Verdant Tornado",
+                        "ja": "リーフトルネード"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 106,
+            "name": {
+                "ko": "폴리",
+                "en": "Forgiven Folly",
+                "ja": "フォーギヴン・フォリー"
+            },
+            "img": "./data/11-20/106.png",
+            "floors": [
+                14,
+                15
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "렐름 셰이커",
+                        "en": "Realm Shaker",
+                        "ja": "レルムシェーカー"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 107,
+            "name": {
+                "ko": "데지트",
+                "en": "Forgiven Deceit",
+                "ja": "フォーギヴン・デシート"
+            },
+            "img": "./data/11-20/107.png",
+            "floors": [
+                14,
+                15,
+                16
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "플레임 스피터",
+                        "en": "Flamespitter",
+                        "ja": "フレイムスピッター"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 108,
+            "name": {
+                "ko": "토피아리",
+                "en": "Traverse Topiary",
+                "ja": "トラバース・トピアリー"
+            },
+            "img": "./data/11-20/108.png",
+            "floors": [
+                15,
+                16,
+                17
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "할퀴기",
+                        "en": "Rake",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 109,
+            "name": {
+                "ko": "디스오비테안스",
+                "en": "Forgiven Disobedience",
+                "ja": "フォーギヴン・ディスオピーデアンス"
+            },
+            "img": "./data/11-20/109.png",
+            "floors": [
+                16,
+                17
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "헤드 벗",
+                        "en": "Head Butt",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": true,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 110,
+            "name": {
+                "ko": "컨플레이센시",
+                "en": "Forgiven Complacency",
+                "ja": "フォーギヴン・コンプレイセンシー"
+            },
+            "img": "./data/11-20/110.png",
+            "floors": [
+                16,
+                17,
+                18,
+                19
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "데라시네이터",
+                        "en": "Deracinator",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "섀도 버스트",
+                        "en": "Shadow Burst",
+                        "ja": "シャドウバースト"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 111,
+            "name": {
+                "ko": "콘테프트",
+                "en": "Forgiven Contempt",
+                "ja": "フォーギヴン・コンテンプト"
+            },
+            "img": "./data/11-20/111.png",
+            "floors": [
+                17,
+                18,
+                19
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "파이어 브레스",
+                        "en": "Fire Breath",
+                        "ja": "ファイアブレス"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "꼬리 휩쓸기",
+                        "en": "Tail Whip",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 112,
+            "name": {
+                "ko": "바이오렌스",
+                "en": "Forgiven Violence",
+                "ja": "フォーギヴン・ヴァイオレンス"
+            },
+            "img": "./data/11-20/112.png",
+            "floors": [
+                18,
+                19
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "브로우비트",
+                        "en": "Browbeat",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "돌팔매질",
+                        "en": "Stool Pelt",
+                        "ja": "岩石投げ"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 113,
+            "name": {
+                "ko": "콘시트",
+                "en": "Forgiven Conceit",
+                "ja": "フォーギヴン・コンスィート"
+            },
+            "img": "./data/11-20/113.png",
+            "floors": [
+                18,
+                19
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "강격",
+                        "en": "Savage Swipe",
+                        "ja": "強撃"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 114,
+            "name": {
+                "ko": "에뮤레이션",
+                "en": "Forgiven Emulation",
+                "ja": "フォーギヴン・エミュレーション"
+            },
+            "img": "./data/11-20/114.png",
+            "floors": [
+                20
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss20.png"
+        },
+        {
+            "tag": 201,
+            "name": {
+                "ko": "인설트",
+                "en": "Forgiven Insult",
+                "ja": "フォーギヴン・インサルト"
+            },
+            "img": "./data/21-30/201.png",
+            "floors": [
+                21,
+                22,
+                23,
+                24
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "인설팅 어썰트",
+                        "en": "Insulting Assault",
+                        "ja": "インサルトパンチ"
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "생크티파이 홀리",
+                        "en": "Sanctified Holy",
+                        "ja": "サンクティファイド・ホーリー"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 202,
+            "name": {
+                "ko": "모고울",
+                "en": "Traverse Morgawr",
+                "ja": "フォーギヴン・モーゴウル"
+            },
+            "img": "./data/21-30/202.png",
+            "floors": [
+                21,
+                22,
+                23
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "워터가",
+                        "en": "Water III",
+                        "ja": "ウォタガ"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "플루드",
+                        "en": "Flood",
+                        "ja": "フラッド"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 203,
+            "name": {
+                "ko": "트라고판",
+                "en": "Traverse Tragopan",
+                "ja": "トラバース・トラゴパン"
+            },
+            "img": "./data/21-30/203.png",
+            "floors": [
+                21,
+                22
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "윙 커터",
+                        "en": "Wing Cutter",
+                        "ja": "ウィングダッター"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 204,
+            "name": {
+                "ko": "브라이버리",
+                "en": "Forgiven Bribery",
+                "ja": "フォーギヴン・プライバリー"
+            },
+            "img": "./data/21-30/204.png",
+            "floors": [
+                21,
+                22,
+                23,
+                34
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "에테르 스파크",
+                        "en": "Aetherial Spark",
+                        "ja": "エーテリックスパーク"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 205,
+            "name": {
+                "ko": "헤지텐스",
+                "en": "Forgiven Hesitance",
+                "ja": "フォーギヴン・ヘジテンス"
+            },
+            "img": "./data/21-30/205.png",
+            "floors": [
+                23,
+                24,
+                25
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "비트 다운",
+                        "en": "Beatdown",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "후려 갈기기",
+                        "en": "Buffet",
+                        "ja": "ぶん殴る"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 206,
+            "name": {
+                "ko": "클리오니드",
+                "en": "Traverse Clionid",
+                "ja": "トラバース・クリオニッド"
+            },
+            "img": "./data/21-30/206.png",
+            "floors": [
+                24,
+                25
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "애시드 스트림",
+                        "en": "Acrid Stream",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "포식행동",
+                        "en": "Parasitism",
+                        "ja": "捕食行動"
+                    },
+                    "area_img": "",
+                    "desc": "체력이 낮을 때 시전.\n즉사 공격.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 207,
+            "name": {
+                "ko": "제라시",
+                "en": "Forgiven Jealousy",
+                "ja": "フォーギヴン・ジェラシー"
+            },
+            "img": "./data/21-30/207.png",
+            "floors": [
+                24,
+                25,
+                26
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "테러 아이",
+                        "en": "Terror Eye",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "블러디 클로우",
+                        "en": "Bloody Claw",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 208,
+            "name": {
+                "ko": "베나리",
+                "en": "Forgiven Venery",
+                "ja": "フォーギヴン・ヴェナリー"
+            },
+            "img": "./data/21-30/208.png",
+            "floors": [
+                25,
+                26,
+                27
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "생크티파이 파이라",
+                        "en": "Sanctified Fire II",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "생크티파이 플레어",
+                        "en": "Sanctified Flare",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 2,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 209,
+            "name": {
+                "ko": "크루엘티",
+                "en": "Forgiven Cruelty",
+                "ja": "フォーギヴン・クルエルティー"
+            },
+            "img": "./data/21-30/209.png",
+            "floors": [
+                26,
+                27,
+                28,
+                29
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "할퀴기",
+                        "en": "Rake",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "루멘 인피니텀",
+                        "en": "Lumen Infinitum",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 210,
+            "name": {
+                "ko": "앰비션",
+                "en": "Forgiven Ambition",
+                "ja": "フォーギヴン・アンビション"
+            },
+            "img": "./data/21-30/210.png",
+            "floors": [
+                26,
+                27
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "리퍼 클로우",
+                        "en": "Ripper Claw",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "테일 스매쉬",
+                        "en": "Tail Smash",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 211,
+            "name": {
+                "ko": "디소넌스",
+                "en": "Forgiven Dissonance",
+                "ja": "フォーギヴン・ディソナンス"
+            },
+            "img": "./data/21-30/211.png",
+            "floors": [
+                27,
+                28,
+                29
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "슬래쉬",
+                        "en": "Slash",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 212,
+            "name": {
+                "ko": "스태츄",
+                "en": "Traverse Statue",
+                "ja": "トラバース・スタチュー"
+            },
+            "img": "./data/21-30/212.png",
+            "floors": [
+                28,
+                29
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "피스트 오브 레이지",
+                        "en": "Fists of Rage",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": true,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "스톤 라이트",
+                        "en": "Stonelight",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 213,
+            "name": {
+                "ko": "인트라랜스",
+                "en": "Forgiven Intolerance",
+                "ja": "フォーギヴン・イントーラランス"
+            },
+            "img": "./data/21-30/213.png",
+            "floors": [
+                28,
+                29
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "Words of Woe",
+                        "en": "Words of Woe",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "스윈지",
+                        "en": "Swinge",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 214,
+            "name": {
+                "ko": "교주님",
+                "en": "Forgiven Treachery",
+                "ja": "フォーギヴン・トレチャリー"
+            },
+            "img": "./data/21-30/214.png",
+            "floors": [
+                30
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss30.png"
+        },
+        {
+            "tag": 301,
+            "name": {
+                "ko": "엑스트션",
+                "en": "Forgiven Extortion",
+                "ja": "フォーギヴン・エクストーション"
+            },
+            "img": "./data/31-40/301.png",
+            "floors": [
+                31,
+                32,
+                33,
+                34
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "라베노우스 바이트",
+                        "en": "Ravenous Bite",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 302,
+            "name": {
+                "ko": "페가수스",
+                "en": "Traverse Pegasus",
+                "ja": "トラバース・ペガサス"
+            },
+            "img": "./data/31-40/302.png",
+            "floors": [
+                31,
+                32,
+                33
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "갤롭",
+                        "en": "Gallop",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\rush_aoe.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": true,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "니커",
+                        "en": "Nicker",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 303,
+            "name": {
+                "ko": "모카리",
+                "en": "Forgiven Mockery",
+                "ja": "フォーギヴン・モッカリー"
+            },
+            "img": "./data/31-40/303.png",
+            "floors": [
+                31,
+                32
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "생크티파이 블리자라",
+                        "en": "Sanctified Blizzard II",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 304,
+            "name": {
+                "ko": "버드",
+                "en": "Bird of the Traverse",
+                "ja": "バード・オブ・トラバース"
+            },
+            "img": "./data/31-40/304.png",
+            "floors": [
+                31,
+                32,
+                33,
+                34
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "사이드 슬립",
+                        "en": "Sideslip",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "윙비트",
+                        "en": "Wingbeat",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "넉백.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 305,
+            "name": {
+                "ko": "그리핀",
+                "en": "Traverse Jaculus",
+                "ja": "トラバース・ヤクルス"
+            },
+            "img": "./data/31-40/305.png",
+            "floors": [
+                32,
+                33,
+                34,
+                35
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "알핀 드래프트",
+                        "en": "Alpine Draft",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "골든 탈론",
+                        "en": "Golden Talons",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 306,
+            "name": {
+                "ko": "파바션",
+                "en": "Forgiven Perversion",
+                "ja": "フォーギヴン・パーヴァージョン"
+            },
+            "img": "./data/31-40/306.png",
+            "floors": [
+                33,
+                34,
+                35,
+                36
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "마나 부스트",
+                        "en": "Mana Boost",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "대미지 증가 버프.",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "언투 더스트",
+                        "en": "Unto Dust",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "체력이 낮을 때 사용.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 307,
+            "name": {
+                "ko": "히포클리시",
+                "en": "Forgiven Hypocrisy",
+                "ja": "フォーギヴン・ヒポクリシー"
+            },
+            "img": "./data/31-40/307.png",
+            "floors": [
+                34,
+                35,
+                36
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "기벳 케이지",
+                        "en": "Gibbet Cage",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "우든 홀스",
+                        "en": "Wooden Horse",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 308,
+            "name": {
+                "ko": "스톤 라이언",
+                "en": "Traverse Lionstone",
+                "ja": "トラバース・ストーンライオン"
+            },
+            "img": "./data/31-40/308.png",
+            "floors": [
+                35,
+                36,
+                37,
+                38
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "캐칭 클로",
+                        "en": "Catching Claws",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "라이온 블레이즈",
+                        "en": "Lionsblaze",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 309,
+            "name": {
+                "ko": "플레이그",
+                "en": "Forgiven Plague",
+                "ja": "フォーギヴン・プレイグ"
+            },
+            "img": "./data/31-40/309.png",
+            "floors": [
+                36,
+                37,
+                38,
+                39
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "포이즌 폴른 페어-전방",
+                        "en": "Poison Pollen Pair-front",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "사용 후 바로 후방 부채꼴 공격.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "포이즌 폴른 페어-후방",
+                        "en": "Poison Pollen Pair-back",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "할퀴기",
+                        "en": "Rake",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 310,
+            "name": {
+                "ko": "인퀴지터",
+                "en": "Traverse Inquisitor",
+                "ja": "トラバース・インクイジター"
+            },
+            "img": "./data/31-40/310.png",
+            "floors": [
+                36,
+                37,
+                38
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "스펠소드",
+                        "en": "Spellsword",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "데스 도어",
+                        "en": "Death's Door",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 311,
+            "name": {
+                "ko": "스톤 솔져",
+                "en": "Traverse Soldierstone",
+                "ja": "トラバース・ストーンソルジャー"
+            },
+            "img": "./data/31-40/311.png",
+            "floors": [
+                36,
+                37,
+                38,
+                39
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 4,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "핸드 오브 저지먼트",
+                        "en": "Hand of judgement",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\lockon_solo.png",
+                    "desc": "랜덤 대상 넉백 공격.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "피스트 오브 레이지",
+                        "en": "Fists of Rage",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "이후 버스터 너클로 연계.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": true,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "버스터 너클",
+                        "en": "Buster Knuckles",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\dynamo.png",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "라인 오브 파이어",
+                        "en": "Line of Fire",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\large_square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 312,
+            "name": {
+                "ko": "프레쥬디스",
+                "en": "Forgiven Prejudice",
+                "ja": "フォーギヴン・プレジュディス"
+            },
+            "img": "./data/31-40/312.png",
+            "floors": [
+                37,
+                38,
+                39
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "페트리파이 라이트",
+                        "en": "Petrifying Light",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\dontlook.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "생크티피케이션",
+                        "en": "Sanctification",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "석화 상태로 맞을 경우 즉사.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 313,
+            "name": {
+                "ko": "페츄랜스",
+                "en": "Forgiven Petulance",
+                "ja": "フォーギヴン・ペチュランス"
+            },
+            "img": "./data/31-40/313.png",
+            "floors": [
+                37,
+                38,
+                39
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "왼쪽 촉수",
+                        "en": "Left Tentacle",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\half_left.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "오른쪽 촉수",
+                        "en": "Right Tentacle",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\half_right.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 314,
+            "name": {
+                "ko": "네이비티",
+                "en": "Forgiven Naivety",
+                "ja": "フォーギヴン・ナイヴテイ"
+            },
+            "img": "./data/31-40/314.png",
+            "floors": [
+                40
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss40.png"
+        },
+        {
+            "tag": 401,
+            "name": {
+                "ko": "아나콘다",
+                "en": "Traverse Anaconda",
+                "ja": "トラバース・アナコンダ"
+            },
+            "img": "./data/41-50/401.png",
+            "floors": [
+                41,
+                42,
+                43,
+                44
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "드리핑 팽",
+                        "en": "Dripping Fang",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "Regorge",
+                        "en": "Regorge",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 402,
+            "name": {
+                "ko": "사마귀",
+                "en": "Traverse Mantis",
+                "ja": "トラバース・マンティス"
+            },
+            "img": "./data/41-50/402.png",
+            "floors": [
+                41,
+                42,
+                43
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "이리 사운드웨이브",
+                        "en": "Eerie Soundwave",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "스탠팅 차인",
+                        "en": "Standing Chine",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 403,
+            "name": {
+                "ko": "리자드",
+                "en": "Traverse Lizard",
+                "ja": "トラバース・リザード"
+            },
+            "img": "./data/41-50/403.png",
+            "floors": [
+                41,
+                42
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "파이어볼",
+                        "en": "Fireball",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 404,
+            "name": {
+                "ko": "타마이트",
+                "en": "Traverse Termite",
+                "ja": "トラバース・ターマイト"
+            },
+            "img": "./data/41-50/404.png",
+            "floors": [
+                41,
+                42,
+                43,
+                44
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "애시드 스프레이",
+                        "en": "Acid Spray",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "헤이스트",
+                        "en": "Haste",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "버프 스킬.",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 405,
+            "name": {
+                "ko": "웨폰",
+                "en": "Traverse Weapon",
+                "ja": "トラバース・ウェポン"
+            },
+            "img": "./data/41-50/405.png",
+            "floors": [
+                42,
+                43,
+                44,
+                45
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "휠 오브 레이지",
+                        "en": "Whirl of Rage",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "맞으면 기절.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "스마이트 오브 레이지",
+                        "en": "Smite of Rage",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 406,
+            "name": {
+                "ko": "거북이",
+                "en": "Traverse Troubadour",
+                "ja": "トラバース・トルバ"
+            },
+            "img": "./data/41-50/406.png",
+            "floors": [
+                43,
+                44,
+                45,
+                46
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "받는 피해 증가",
+                        "en": "Vulnerability Up",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "매 공격마다 받피증 부여.",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "톨토이즈 스톰프",
+                        "en": "Tortoise Stomp",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 407,
+            "name": {
+                "ko": "클리프 카이트",
+                "en": "Traverse Cliffkite",
+                "ja": "トラバース・クリフカイト"
+            },
+            "img": "./data/41-50/407.png",
+            "floors": [
+                44,
+                45,
+                46
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "에테르 블래스트",
+                        "en": "Aetherial Blast",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "휩 크랙",
+                        "en": "Whipcrack",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 408,
+            "name": {
+                "ko": "핀사비크",
+                "en": "Traverse Pincerbeak",
+                "ja": "トラバース・パンサービーク"
+            },
+            "img": "./data/41-50/408.png",
+            "floors": [
+                45,
+                46,
+                47
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "파이어볼",
+                        "en": "Fireball",
+                        "ja": "ファイアボール"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 409,
+            "name": {
+                "ko": "제르미넌트",
+                "en": "Traverse Germinant",
+                "ja": "トラバース・ジェルミナンツ"
+            },
+            "img": "./data/41-50/409.png",
+            "floors": [
+                46,
+                47,
+                48,
+                49
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "오디우스 에어",
+                        "en": "Odious Air",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "바인 휩",
+                        "en": "Vine Whip",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 410,
+            "name": {
+                "ko": "골렘",
+                "en": "Traverse Petreffigy",
+                "ja": "トラバース・エフィジィ"
+            },
+            "img": "./data/41-50/410.png",
+            "floors": [
+                46,
+                47,
+                48,
+                49
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "흡인진동",
+                        "en": "Magnetic Shock",
+                        "ja": "吸引振動"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "대미지 없음. 시전자 근처로 끌어당김.\n이후 근처 원형범위 공격 시전.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "플레인 크래커",
+                        "en": "Plaincracker",
+                        "ja": "プレーンクラッカー"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 411,
+            "name": {
+                "ko": "트리피드",
+                "en": "Traverse Triffid",
+                "ja": "トラバース・トリフィド"
+            },
+            "img": "./data/41-50/411.png",
+            "floors": [
+                46,
+                47,
+                48,
+                49
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "크리핑 콤비네이션(1)",
+                        "en": "Creeping Combination(1)",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "정면 공격 이후 뒤돌아서 한번 더 공격.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "크리핑 콤비네이션(2)",
+                        "en": "Creeping Combination(2)",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "첫 공격 사용 후 뒤돌아서 공격하므로...\n후방 공격으로 표시함.",
+                    "cast": 1,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 412,
+            "name": {
+                "ko": "아가베",
+                "en": "Traverse Agave",
+                "ja": "トラバース・アガベ"
+            },
+            "img": "./data/41-50/412.png",
+            "floors": [
+                47,
+                48,
+                49
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "바이팅 윈드",
+                        "en": "Biting Wind",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "서레이티드 스핀",
+                        "en": "Serrated Spin",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 413,
+            "name": {
+                "ko": "엔트리온",
+                "en": "Traverse Antlion",
+                "ja": "トラバース・アントリオン"
+            },
+            "img": "./data/41-50/413.png",
+            "floors": [
+                47,
+                48,
+                49
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "원 투 마치(1)",
+                        "en": "One-two March(1)",
+                        "ja": "ワンツマーチ(1)"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "사용 후, 같은 경로로 한번 더 돌진.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": true,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "원 투 마치(2)",
+                        "en": "One-two March(2)",
+                        "ja": "ワンツマーチ(2)"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 1,
+                    "rush": true,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "맨디뷸러 바이트",
+                        "en": "Mandibular Bite",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 414,
+            "name": {
+                "ko": "오그브나비리",
+                "en": "Ogbunabali",
+                "ja": "オグブナバリ"
+            },
+            "img": "./data/41-50/414.png",
+            "floors": [
+                50
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss50.png"
+        },
+        {
+            "tag": 501,
+            "name": {
+                "ko": "풍뎅이",
+                "en": "Traverse Beetle",
+                "ja": "トラバース・ビートル"
+            },
+            "img": "./data/51-60/501.png",
+            "floors": [
+                51,
+                52
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "라이노 어택",
+                        "en": "Rhino Attack",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "라이노 가드",
+                        "en": "Rhino Guard",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "회피율 상승 버프.\n차단 가능.",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 502,
+            "name": {
+                "ko": "히솝",
+                "en": "Traverse Hyssop",
+                "ja": "トラバース・ヒソプ"
+            },
+            "img": "./data/51-60/502.png",
+            "floors": [
+                51,
+                52
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "포이즌 미스트",
+                        "en": "Poison Mist",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 503,
+            "name": {
+                "ko": "전갈",
+                "en": "Traverse Tawnyclaw",
+                "ja": "トラバース・ブラウンクロウ"
+            },
+            "img": "./data/51-60/503.png",
+            "floors": [
+                51,
+                52,
+                53
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "테일 스크류",
+                        "en": "Tail Screw",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "최대체력의 80% 피해.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "임페일",
+                        "en": "Impale",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 504,
+            "name": {
+                "ko": "폴스라코스",
+                "en": "Traverse Phorusrhacos",
+                "ja": "トラバース・フォルスラコス"
+            },
+            "img": "./data/51-60/504.png",
+            "floors": [
+                51,
+                52,
+                53
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "페인 스톰",
+                        "en": "Pain Storm",
+                        "ja": "ペインストーム"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "각도가 더 넓으니 주의.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "휠 오브 허트",
+                        "en": "Whorl of Hurt",
+                        "ja": "ペインサイクロン"
+                    },
+                    "area_img": "data\\skillran\\dynamo.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "페인풀 거스트",
+                        "en": "Painful Gust",
+                        "ja": "ペインフルガスト"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 505,
+            "name": {
+                "ko": "파챠마마",
+                "en": "Traverse Pachamama",
+                "ja": "トラバース・パチャママ"
+            },
+            "img": "./data/51-60/505.png",
+            "floors": [
+                52,
+                53,
+                54,
+                55
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "배터 호른",
+                        "en": "Batterhorn",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "호리드 호른",
+                        "en": "Horrid Horn",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 506,
+            "name": {
+                "ko": "모니터",
+                "en": "Traverse Monitor",
+                "ja": "トラバース・モニター"
+            },
+            "img": "./data/51-60/506.png",
+            "floors": [
+                53,
+                54,
+                55
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "스몰더링 스케일",
+                        "en": "Smoldering Scales",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "반사 버프.\n근접스킬, 물리 평타 사용금지.",
+                    "cast": 2,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "버닝 사이클론",
+                        "en": "Burning Cyclone",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 507,
+            "name": {
+                "ko": "에이비스",
+                "en": "Traverse Fallen Aevis",
+                "ja": "トラバース・イビルエイビス"
+            },
+            "img": "./data/51-60/507.png",
+            "floors": [
+                54,
+                55,
+                56
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "블레이징 트레일",
+                        "en": "Blazing Trail",
+                        "ja": "ブレイジングトレイル"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "파이어볼",
+                        "en": "Fireball",
+                        "ja": "ファイアボール"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 508,
+            "name": {
+                "ko": "커얼",
+                "en": "Traverse Caracal",
+                "ja": "トラバース・カラカル"
+            },
+            "img": "./data/51-60/508.png",
+            "floors": [
+                55,
+                56,
+                67
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "차지 위스커",
+                        "en": "Charged Whisker",
+                        "ja": "チャージドホイスカー"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "마비 부여.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "스파이크 플레일",
+                        "en": "Spike Flail",
+                        "ja": "スパイクフレイム"
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 509,
+            "name": {
+                "ko": "가디언",
+                "en": "Traverse Guardian",
+                "ja": "トラバース・ガーディアン"
+            },
+            "img": "./data/51-60/509.png",
+            "floors": [
+                56,
+                57,
+                58,
+                59
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 510,
+            "name": {
+                "ko": "기간트",
+                "en": "Traverse Gigant",
+                "ja": "トラバース・ギガント"
+            },
+            "img": "./data/51-60/510.png",
+            "floors": [
+                56,
+                57,
+                58,
+                59
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "인헤일",
+                        "en": "Inhale",
+                        "ja": "インヘイル"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "대미지 없는 끌어당기기 스킬.\n시전 후 원형범위 스킬 시전.",
+                    "cast": 1,
+                    "size": 1,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "헤비 라이어트",
+                        "en": "Heavy Scrapline",
+                        "ja": "ヘビーラリアット"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "헤비 토스",
+                        "en": "Heavy Toss",
+                        "ja": "ヘビートス"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "공중으로 날려버리는 공격.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 511,
+            "name": {
+                "ko": "샌드 서펜트",
+                "en": "Traverse Sand Serpent",
+                "ja": "トラバース・サンドサーペント"
+            },
+            "img": "./data/51-60/511.png",
+            "floors": [
+                57,
+                58,
+                59
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 2,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "어슨 오우거",
+                        "en": "Earthen Auger",
+                        "ja": "アースオーガー"
+                    },
+                    "area_img": "data\\skillran\\pack.png",
+                    "desc": "히트서클 안쪽도 안전.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 512,
+            "name": {
+                "ko": "하울러",
+                "en": "Traverse Howler",
+                "ja": "トラバース・ハウラー"
+            },
+            "img": "./data/51-60/512.png",
+            "floors": [
+                57,
+                58,
+                59
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "베럴링 스매시",
+                        "en": "Baarreling Smash",
+                        "ja": "バレリングスマッシュ"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "이후 아래 두 스킬 중 랜덤으로 사용.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": true,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "사이더 테일",
+                        "en": "Scythe Tail",
+                        "ja": "サイズテール"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "넉백.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "외륜 번개",
+                        "en": "Master of Levin",
+                        "ja": "外輪雷"
+                    },
+                    "area_img": "data\\skillran\\dynamo.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 513,
+            "name": {
+                "ko": "사이가니어",
+                "en": "Traverse Saichania",
+                "ja": "トラバース・サイカニア"
+            },
+            "img": "./data/51-60/513.png",
+            "floors": [
+                57,
+                58,
+                59
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "바플먼트 불브",
+                        "en": "Bafflement Bulb",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "대미지는 없음. 플레이어에게 혼란 디버프.\n차단 가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "트라운스",
+                        "en": "Trounce",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "마이티 스핀",
+                        "en": "Mighty Spin",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 514,
+            "name": {
+                "ko": "말리카텐더",
+                "en": "Ancestral Maliktender",
+                "ja": "元祖マリクテンダー"
+            },
+            "img": "./data/51-60/514.png",
+            "floors": [
+                60
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss60.png"
+        },
+        {
+            "tag": 601,
+            "name": {
+                "ko": "노움",
+                "en": "Traverse Gnome",
+                "ja": "トラバース・ノーム"
+            },
+            "img": "./data/61-70/601.png",
+            "floors": [
+                61,
+                62,
+                63
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "스트레이트 펀치",
+                        "en": "Straight Punch",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "플레인 파운드",
+                        "en": "Plain Pound",
+                        "ja": "プレインパウンド"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 602,
+            "name": {
+                "ko": "미스치프",
+                "en": "Forgiven Mischief",
+                "ja": "フォーギヴン・ミスチーフ"
+            },
+            "img": "./data/61-70/602.png",
+            "floors": [
+                61,
+                62,
+                63,
+                64
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "해머 쓰로우",
+                        "en": "Hammer Throw",
+                        "ja": "ハンマースロ"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "스킬트론",
+                        "en": "Schiltron",
+                        "ja": "スキルトロン"
+                    },
+                    "area_img": "",
+                    "desc": "방어버프 부여.\n차단 가능.",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 603,
+            "name": {
+                "ko": "크리프몰",
+                "en": "Traverse Cliffmole",
+                "ja": "トラバース・クリフモール"
+            },
+            "img": "./data/61-70/603.png",
+            "floors": [
+                61,
+                62,
+                63
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "헤드 벗",
+                        "en": "Head Butt",
+                        "ja": "ヘッドバット"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 604,
+            "name": {
+                "ko": "카멜레온",
+                "en": "Forgiven Doubt",
+                "ja": "フォーギヴン・ダウト"
+            },
+            "img": "./data/61-70/604.png",
+            "floors": [
+                61,
+                62,
+                63,
+                64
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "슬립 오브 더 통",
+                        "en": "Slip of the Tongue",
+                        "ja": "飛びつき"
+                    },
+                    "area_img": "data\\skillran\\lockon_solo.png",
+                    "desc": "직후 근처 범위공격 시전.",
+                    "cast": 1,
+                    "size": 4,
+                    "rush": true,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "바디 프레스",
+                        "en": "Body Press",
+                        "ja": "ボディプレス"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 605,
+            "name": {
+                "ko": "탈로스",
+                "en": "Traverse Talos",
+                "ja": "トラバース・タロース"
+            },
+            "img": "./data/61-70/605.png",
+            "floors": [
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "엑셀러레이트",
+                        "en": "Accelerate",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "범위가 보이지 않는 돌진공격.\n이후 도넛 공격 시전함.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": true,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "서브덕션",
+                        "en": "Subduction",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\dynamo.png",
+                    "desc": "범위가 크진 않으므로 못붙겠으면 멀리 빼기.",
+                    "cast": 1,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "세틀링 스톤",
+                        "en": "Settling Stone",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 606,
+            "name": {
+                "ko": "라이오팅",
+                "en": "Forgiven Riot",
+                "ja": "フォーギヴン・ライオティング"
+            },
+            "img": "./data/61-70/606.png",
+            "floors": [
+                62,
+                63,
+                64
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "좌측 쇼크웨이브",
+                        "en": "Left-sided Shockwave",
+                        "ja": "レフトサンド・ショックウェーブ"
+                    },
+                    "area_img": "data\\skillran\\half_left.png",
+                    "desc": "사용 후, 반대편 쇼크웨이브를 즉시 사용.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "우측 쇼크웨이브",
+                        "en": "Right-sided Shockwave",
+                        "ja": "ライトサンド・ショックウェーブ"
+                    },
+                    "area_img": "data\\skillran\\half_right.png",
+                    "desc": "사용 후, 반대편 쇼크웨이브를 즉시 사용.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "리퍼 클로",
+                        "en": "Ripper Claw",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 607,
+            "name": {
+                "ko": "글랏지",
+                "en": "Forgiven Grudge",
+                "ja": "フォーギヴン・グラッジ"
+            },
+            "img": "./data/61-70/607.png",
+            "floors": [
+                64,
+                65,
+                66
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "헤일 파이어",
+                        "en": "Hailfire",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "크리스탈라인 스팅어",
+                        "en": "Crystalline Stingers",
+                        "ja": "クリスタルスティンガー"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "체력이 낮아지면 시전.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 608,
+            "name": {
+                "ko": "임팔리티",
+                "en": "Forgiven Imparity",
+                "ja": "フォーギヴン・イムパリティー"
+            },
+            "img": "./data/61-70/608.png",
+            "floors": [
+                64,
+                65,
+                66
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "아일 드랍",
+                        "en": "Isle Drop",
+                        "ja": "アイルドロップ"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "록 슬라이드",
+                        "en": "Rockslide",
+                        "ja": "ロックスライド"
+                    },
+                    "area_img": "data\\skillran\\plus.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 609,
+            "name": {
+                "ko": "여왕벌",
+                "en": "Traverse Queen",
+                "ja": "トラバース・クイーンビー"
+            },
+            "img": "./data/61-70/609.png",
+            "floors": [
+                65,
+                66,
+                67,
+                68
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "언파이널 스팅",
+                        "en": "Unfinal Sting",
+                        "ja": "アンファイナルスティング"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "파이널 스팅",
+                        "en": "Final Sting",
+                        "ja": "ファイナルスピア"
+                    },
+                    "area_img": "",
+                    "desc": "체력이 낮아지면 사용.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 610,
+            "name": {
+                "ko": "어태치먼트",
+                "en": "Forgiven Attachment",
+                "ja": "フォーギヴン・アタッチメント"
+            },
+            "img": "./data/61-70/610.png",
+            "floors": [
+                65,
+                66,
+                67
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "슈어 워터(전방)",
+                        "en": "Sewer Water(front)",
+                        "ja": "スーウェッジウォーター(전방)"
+                    },
+                    "area_img": "data\\skillran\\fronthalf.png",
+                    "desc": "팔의 위치에 따라 달라짐.\n앞을 향하면 정면.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "슈어 워터(후방)",
+                        "en": "Sewer Water(back)",
+                        "ja": "スーウェッジウォーター(후방)"
+                    },
+                    "area_img": "data\\skillran\\half_back.png",
+                    "desc": "팔의 위치에 따라 달라짐.\n위를 향하면 후방.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 611,
+            "name": {
+                "ko": "사보텐더",
+                "en": "Forgiven Contention",
+                "ja": "フォーギヴン・コンテンション"
+            },
+            "img": "./data/61-70/611.png",
+            "floors": [
+                66,
+                67,
+                68,
+                69
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "약 바늘 1000개",
+                        "en": "Several Thousand Needles",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "헤이스트",
+                        "en": "Haste",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "헤이스트 버프.",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 612,
+            "name": {
+                "ko": "은코츠",
+                "en": "Traverse Ngozi",
+                "ja": "フォーギヴン・ンゴツィ"
+            },
+            "img": "./data/61-70/612.png",
+            "floors": [
+                67,
+                68,
+                69
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "보울더 토스",
+                        "en": "Boulder Toss",
+                        "ja": "投石"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "랜드슬립",
+                        "en": "Landslip",
+                        "ja": "土石流"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 613,
+            "name": {
+                "ko": "볼라시티",
+                "en": "Forgiven Voracity",
+                "ja": "フォーギヴン・ヴォラシティ"
+            },
+            "img": "./data/61-70/613.png",
+            "floors": [
+                67,
+                68,
+                69
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "스톤 게이즈",
+                        "en": "Stone Gaze",
+                        "ja": "ストーンゲイズ"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "바디 슬램",
+                        "en": "Body Slam",
+                        "ja": "ボディスラム"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 614,
+            "name": {
+                "ko": "사이클롭스",
+                "en": "Forgiven Zea",
+                "ja": "フォーギヴン・ズィール"
+            },
+            "img": "./data/61-70/614.png",
+            "floors": [
+                70
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss70.png"
+        },
+        {
+            "tag": 701,
+            "name": {
+                "ko": "커스타드",
+                "en": "Traverse Diplomat Cream",
+                "ja": "トラバース・ホイップカスタード"
+            },
+            "img": "./data/71-80/701.png",
+            "floors": [
+                71,
+                72,
+                73
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "파이라",
+                        "en": "Fire II",
+                        "ja": "ファイラ"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 702,
+            "name": {
+                "ko": "암빌리프",
+                "en": "Forgiven Unbelief",
+                "ja": "フォーギヴン・アンビリーフ"
+            },
+            "img": "./data/71-80/702.png",
+            "floors": [
+                71,
+                72,
+                73,
+                74
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "그라벨 샤워",
+                        "en": "Gravel Shower",
+                        "ja": "グラベルシャワー"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "크러시 팽",
+                        "en": "Crushing Fangs",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "체력이 낮아지면 계속 강공격.",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 703,
+            "name": {
+                "ko": "시져 조",
+                "en": "Traverse Scissorjaws",
+                "ja": "トラバース・シザージョウ"
+            },
+            "img": "./data/71-80/703.png",
+            "floors": [
+                71,
+                72,
+                73
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "샌드 블래스트",
+                        "en": "Sandblast",
+                        "ja": "サンドブラスト"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 704,
+            "name": {
+                "ko": "훌두",
+                "en": "Traverse Huldu",
+                "ja": "トラバース・フルドゥ"
+            },
+            "img": "./data/71-80/704.png",
+            "floors": [
+                71,
+                72,
+                73
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "작렬",
+                        "en": "Fracture",
+                        "ja": "炸裂"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "자폭",
+                        "en": "Self-destruct",
+                        "ja": "自爆"
+                    },
+                    "area_img": "data\\skillran\\away.png",
+                    "desc": "체력을 깎으면 지정불가 상태로 시전.\n거리비례 대미지.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 705,
+            "name": {
+                "ko": "록 이터",
+                "en": "Traverse Stone Eater",
+                "ja": "トラバース・ロックイーター"
+            },
+            "img": "./data/71-80/705.png",
+            "floors": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "플링잉 차지",
+                        "en": "Flinging Charge",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\lockon_solo.png",
+                    "desc": "어글자를 향해 넉백, 독 부여.",
+                    "cast": 1,
+                    "size": 4,
+                    "rush": true,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 706,
+            "name": {
+                "ko": "스파이트",
+                "en": "Forgiven Spite",
+                "ja": "フォーギヴン・スパイト"
+            },
+            "img": "./data/71-80/706.png",
+            "floors": [
+                72,
+                73,
+                74
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "쌍수류 - 원륜",
+                        "en": "Growing Circles of Ablution",
+                        "ja": "双水流・円輪"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "원형 또는 도넛 공격을 연달아 사용.\n기술 이름에 따라 달라짐.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "쌍수류 - 륜원",
+                        "en": "Shrinking Circles of Ablution",
+                        "ja": "双水流・輪円"
+                    },
+                    "area_img": "data\\skillran\\dynamo.png",
+                    "desc": "원형 또는 도넛 공격을 연달아 사용.\n기술 이름에 따라 달라짐.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": true
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 707,
+            "name": {
+                "ko": "알로칸스",
+                "en": "Forgiven Arrogance",
+                "ja": "フォーギヴン・アロガンス"
+            },
+            "img": "./data/71-80/707.png",
+            "floors": [
+                73,
+                74,
+                75
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "연속 발차기",
+                        "en": "Hail of Heels",
+                        "ja": "連蹴り"
+                    },
+                    "area_img": "data\\skillran\\fronthalf.png",
+                    "desc": "캐스팅 후, 4번 연속 시전.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": true
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 708,
+            "name": {
+                "ko": "지렁이",
+                "en": "Traverse Worm",
+                "ja": "トラバース・ウォーム"
+            },
+            "img": "./data/71-80/708.png",
+            "floors": [
+                74,
+                75,
+                76
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "지진",
+                        "en": "Earthquake",
+                        "ja": "地震"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 709,
+            "name": {
+                "ko": "아메미트",
+                "en": "Traverse Amemet",
+                "ja": "トラバース・アメミット"
+            },
+            "img": "./data/71-80/709.png",
+            "floors": [
+                75,
+                76,
+                77
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "토플",
+                        "en": "Topple",
+                        "ja": "トップル"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "오버바이트",
+                        "en": "Overbite",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 710,
+            "name": {
+                "ko": "디센션",
+                "en": "Forgiven Dissention",
+                "ja": "フォーギヴン・ディセンション"
+            },
+            "img": "./data/71-80/710.png",
+            "floors": [
+                75,
+                76,
+                77,
+                78
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "마이티 스핀",
+                        "en": "Mighty Spin",
+                        "ja": "マイティスピン"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "트라운스",
+                        "en": "Trounce",
+                        "ja": "トラウンス"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 711,
+            "name": {
+                "ko": "코랩션",
+                "en": "Forgiven Corruption",
+                "ja": "フォーギヴン・コラプション"
+            },
+            "img": "./data/71-80/711.png",
+            "floors": [
+                76,
+                77,
+                78
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "롤링 배러지",
+                        "en": "Rolling Barrage",
+                        "ja": "ローリングバラージ"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "다른 방을 침범할 정도로 매우 거대함.\n공격당하면 캐스팅이 취소됨.",
+                    "cast": 2,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "포워드 배러지",
+                        "en": "Forward Barrage",
+                        "ja": "フロントバラージ"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "브레이크 비크",
+                        "en": "Breakbeak",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 712,
+            "name": {
+                "ko": "슬랜더",
+                "en": "Forgiven Slander",
+                "ja": "フォーギヴン・スランダー"
+            },
+            "img": "./data/71-80/712.png",
+            "floors": [
+                77,
+                78,
+                79
+            ],
+            "stun": true,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "오로제닉 스톰",
+                        "en": "Orogenic Storm",
+                        "ja": "オロジェニックストーム"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "메타모르픽 블래스트",
+                        "en": "Metamorphic Blast",
+                        "ja": "メタモーフィックブラスト"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 713,
+            "name": {
+                "ko": "바니티",
+                "en": "Forgiven Vanity",
+                "ja": "フォーギヴン・ヴァニティー"
+            },
+            "img": "./data/71-80/713.png",
+            "floors": [
+                77,
+                78,
+                79
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "크로스 레이저",
+                        "en": "Cross Lasers",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\plus.png",
+                    "desc": "캐스팅바가 보이지 않음.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "페리페랄 레이저",
+                        "en": "Peripheral Lasers",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\dynamo.png",
+                    "desc": "캐스팅바가 보이지 않음.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 714,
+            "name": {
+                "ko": "프로파니티",
+                "en": "Forgiven Profanity",
+                "ja": "フォーギヴン・プロファニティー"
+            },
+            "img": "./data/71-80/714.png",
+            "floors": [
+                80
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss80.png"
+        },
+        {
+            "tag": 801,
+            "name": {
+                "ko": "그렘린",
+                "en": "Invoked Gremlin",
+                "ja": "インヴォークド・グレムリン"
+            },
+            "img": "./data/81-90/801.png",
+            "floors": [
+                81,
+                82,
+                83
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "배드 마우스",
+                        "en": "Bad-mouth",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "랜덤 대상에게 슬로우 디버프 부여.",
+                    "cast": 1,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "클로",
+                        "en": "Claw",
+                        "ja": "クロウ"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 802,
+            "name": {
+                "ko": "놀",
+                "en": "Traverse Gnoll",
+                "ja": "トラバース・ノール"
+            },
+            "img": "./data/81-90/802.png",
+            "floors": [
+                81,
+                82,
+                83
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "녹스 블래스트",
+                        "en": "Nox Blast",
+                        "ja": "ノックブラスト"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "물어 죽이기",
+                        "en": "Maul",
+                        "ja": "嚙み殺す"
+                    },
+                    "area_img": "",
+                    "desc": "사실상 즉사기.\n차단 가능.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 803,
+            "name": {
+                "ko": "커브스",
+                "en": "Traverse Cubus",
+                "ja": "トラバース・カプス"
+            },
+            "img": "./data/81-90/803.png",
+            "floors": [
+                81,
+                82,
+                83,
+                84
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "다라",
+                        "en": "Dark II",
+                        "ja": "ダーラ"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "다크",
+                        "en": "Dark",
+                        "ja": "ダーク"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 804,
+            "name": {
+                "ko": "라이더",
+                "en": "Traverse Rider",
+                "ja": "トラバース・ライダー"
+            },
+            "img": "./data/81-90/804.png",
+            "floors": [
+                81,
+                82,
+                83,
+                84
+            ],
+            "stun": true,
+            "aggro": 2,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "발포드르",
+                        "en": "Valfodr",
+                        "ja": "ヴァルファズル"
+                    },
+                    "area_img": "data\\skillran\\rush_aoe.png",
+                    "desc": "랜덤 한명에게 돌진 후 넉백. 연속으로 4번 시전.\n경로에 누가 있으면 같이 맞음.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": true,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "스톰 슬래시",
+                        "en": "Storm Slash",
+                        "ja": "ストームスラッシュ"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "랜덤 대상에게 돌진 후 사용.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": true,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 805,
+            "name": {
+                "ko": "사타나 주니어",
+                "en": "Invoked Satana",
+                "ja": "インヴォークド・サタナジュニア"
+            },
+            "img": "./data/81-90/805.png",
+            "floors": [
+                83,
+                84,
+                85
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "보이드 블리자라",
+                        "en": "Void Blizzard II",
+                        "ja": "ヴォイド・ブリザラ"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "서프라이즈 어택",
+                        "en": "Surprise Attack",
+                        "ja": "ハイドアタアク"
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": true,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "블리자드 트랩",
+                        "en": "Blizzard Trap",
+                        "ja": "ブリザド・トラップ"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 806,
+            "name": {
+                "ko": "아크 데몬",
+                "en": "Invoked Arch Demon",
+                "ja": "インヴォークド・アークデーモン"
+            },
+            "img": "./data/81-90/806.png",
+            "floors": [
+                84,
+                85,
+                86
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "어비셜 스윙",
+                        "en": "Abyssal Swing",
+                        "ja": "アビサルスイング"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "어비셜 트랜스픽션",
+                        "en": "Abyssal Transfixion",
+                        "ja": "アビサルトランスフィクション"
+                    },
+                    "area_img": "",
+                    "desc": "차단 가능. 체력이 낮아지면 사용.\n랜덤 대상에게 약한 대미지+마비",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 807,
+            "name": {
+                "ko": "서큐버스",
+                "en": "Invoked Succubus",
+                "ja": "インヴォークド・サキュバス"
+            },
+            "img": "./data/81-90/807.png",
+            "floors": [
+                84,
+                85,
+                86
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "하트 히트",
+                        "en": "Passions' Heat",
+                        "ja": "ハートヒート"
+                    },
+                    "area_img": "data\\skillran\\lockon.png",
+                    "desc": "벽 뒤에 숨어서 회피 가능.\n디버프에 걸리면 움직이지 말것.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 808,
+            "name": {
+                "ko": "카마",
+                "en": "Traverse Cama",
+                "ja": "トラバース・キャマ"
+            },
+            "img": "./data/81-90/808.png",
+            "floors": [
+                84,
+                85,
+                86,
+                87
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "킥 앤 테일(킥)",
+                        "en": "Claw and Tail(Claw)",
+                        "ja": "キックアンドテイル(킥)"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "작은 직선범위 공격.\n시전 직후 후방 90도 공격.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "킥 앤 테일(테일)",
+                        "en": "Claw and Tail(Tail)",
+                        "ja": "キックアンドテイル(테일)"
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 809,
+            "name": {
+                "ko": "카임",
+                "en": "Invoked Caym",
+                "ja": "インヴォークド・カイム"
+            },
+            "img": "./data/81-90/809.png",
+            "floors": [
+                85,
+                86,
+                87,
+                88,
+                89
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "대흉안",
+                        "en": "Double Hex Eye",
+                        "ja": "大凶眼"
+                    },
+                    "area_img": "data\\skillran\\dontlook.png",
+                    "desc": "석화 부여.",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "안광탄",
+                        "en": "Knowing Gleam",
+                        "ja": "眼光弾"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 810,
+            "name": {
+                "ko": "훔바바",
+                "en": "Invoked Humbaba",
+                "ja": "インヴォークド・フンババ"
+            },
+            "img": "./data/81-90/810.png",
+            "floors": [
+                86,
+                87,
+                88,
+                89
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "트리플 블로우",
+                        "en": "Triple Blow",
+                        "ja": "トリプルブロー"
+                    },
+                    "area_img": "",
+                    "desc": "3번 공격 후, 곧바로 전방 부채꼴 공격.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "쿼드러플 블로우",
+                        "en": "Quadruple Blow",
+                        "ja": "クアドラブロー"
+                    },
+                    "area_img": "",
+                    "desc": "4번 공격 후, 곧바로 전방 부채꼴 공격.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "벨로우",
+                        "en": "Bellows",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 811,
+            "name": {
+                "ko": "사자",
+                "en": "Invoked Baal",
+                "ja": "インヴォークド・バエル"
+            },
+            "img": "./data/81-90/811.png",
+            "floors": [
+                86,
+                87,
+                88,
+                89
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "인시너레이팅 라하르",
+                        "en": "Incinerating Lahar",
+                        "ja": "インシネレイトラハール"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "다른 방을 침범할 정도로 매우 넓음.\n공격당하면 시전이 취소됨.",
+                    "cast": 2,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "어비셜 레이",
+                        "en": "Abyssal Ray",
+                        "ja": "アビサルレイ"
+                    },
+                    "area_img": "data\\skillran\\large_square.png",
+                    "desc": "벽 뒤로 회피 불가능.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "파운스",
+                        "en": "Pounce",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 812,
+            "name": {
+                "ko": "트루바토르",
+                "en": "Invoked Troubadour",
+                "ja": "インヴォークド・トルバドゥール"
+            },
+            "img": "./data/81-90/812.png",
+            "floors": [
+                86,
+                87,
+                88,
+                89
+            ],
+            "stun": true,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "다라",
+                        "en": "Dark II",
+                        "ja": "ダーラ"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "차단 가능.\n시전이 빠르므로 주의.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "이너 데몬",
+                        "en": "Inner Demons",
+                        "ja": "イナーデーモン"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 813,
+            "name": {
+                "ko": "케르베로스",
+                "en": "Invoked Cerberus",
+                "ja": "インヴォークド・ケルベロス"
+            },
+            "img": "./data/81-90/813.png",
+            "floors": [
+                86,
+                87,
+                88,
+                89
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "라이트닝 볼트",
+                        "en": "Lightning Bolt",
+                        "ja": "ライトニング"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "헬 클로",
+                        "en": "Hellclaw",
+                        "ja": "ヘルクロー"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "테일 블로우",
+                        "en": "Tail Blow",
+                        "ja": "テイルブロー"
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 814,
+            "name": {
+                "ko": "말라코다",
+                "en": "Malacoda",
+                "ja": "マラコーダ"
+            },
+            "img": "./data/81-90/814.png",
+            "floors": [
+                90
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss90.png"
+        },
+        {
+            "tag": 901,
+            "name": {
+                "ko": "야테베오",
+                "en": "Traverse Ya-te-veo",
+                "ja": "トラバース・ヤテベオ"
+            },
+            "img": "./data/91-100/901.png",
+            "floors": [
+                91,
+                92,
+                93
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "로튼 스텐치",
+                        "en": "Rotten Stench",
+                        "ja": "ロトンステンチ"
+                    },
+                    "area_img": "data\\skillran\\large_square.png",
+                    "desc": "벽 뒤로 회피 불가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "골드 더스트",
+                        "en": "Gold Dust",
+                        "ja": "ゴールドダスト"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 902,
+            "name": {
+                "ko": "트리피드",
+                "en": "Traverse Triffid",
+                "ja": "トラバース・ヴァイオレットトリフィド"
+            },
+            "img": "./data/91-100/902.png",
+            "floors": [
+                91,
+                92,
+                93
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "엔탱글",
+                        "en": "Entangle",
+                        "ja": "エンタンゲル"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "크리핑 아이비",
+                        "en": "Creeping Ivy",
+                        "ja": "クリープアイヴィ"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 903,
+            "name": {
+                "ko": "드림 이블",
+                "en": "Invoked Dreamer",
+                "ja": "インヴォークド・ドリームエビル"
+            },
+            "img": "./data/91-100/903.png",
+            "floors": [
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "몽마의 시선",
+                        "en": "Dark Vision",
+                        "ja": "夢魔の視線"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "벽 뒤로 회피 불가능.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "사중폭",
+                        "en": "Endless Nightmare",
+                        "ja": "死重爆"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "체력이 모두 깎인 후 비타겟 상태로 시전.\n수면으로 무효화 가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 904,
+            "name": {
+                "ko": "퍼펫",
+                "en": "Invoked Poppet",
+                "ja": "インヴォークド・パペット"
+            },
+            "img": "./data/91-100/904.png",
+            "floors": [
+                91,
+                92,
+                93,
+                94
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "끼에에에엑",
+                        "en": "Whinge",
+                        "ja": "キエエエエ"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "빅 허그",
+                        "en": "Big Hug",
+                        "ja": "ドカーン"
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 905,
+            "name": {
+                "ko": "다하카",
+                "en": "Invoked Dahak",
+                "ja": "インヴォークド・ダハーカ"
+            },
+            "img": "./data/91-100/905.png",
+            "floors": [
+                93,
+                94,
+                95
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "리딕 브레스",
+                        "en": "Lithic Breath",
+                        "ja": "リシックブレス"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "테일 드라이브",
+                        "en": "Tail Drive",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\corn_back.png",
+                    "desc": "뒤에 누군가 있을경우 즉시 시전.\n탱이 어그로 잡는걸 확인하고 칠것.",
+                    "cast": 1,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 906,
+            "name": {
+                "ko": "와그",
+                "en": "Traverse Warg",
+                "ja": "トラバース・ワーグ"
+            },
+            "img": "./data/91-100/906.png",
+            "floors": [
+                93,
+                94,
+                95
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "트리플 스컬 대셔",
+                        "en": "Triple Skull Dasher",
+                        "ja": "トリプルラダッシャー"
+                    },
+                    "area_img": "",
+                    "desc": "3번 공격 후, 근처 범위 원형공격 시전.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "쿼드러플 스컬 대셔",
+                        "en": "Quadruple Skull Dasher",
+                        "ja": "クアドラダッシャー"
+                    },
+                    "area_img": "",
+                    "desc": "4번 공격 후, 근처 범위 원형공격 시전.",
+                    "cast": 0,
+                    "size": 3,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "헤비 스매쉬",
+                        "en": "Heavy Smash",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 907,
+            "name": {
+                "ko": "소우투스",
+                "en": "Invoked Sawtooth",
+                "ja": "インヴォークド・ソウトゥース"
+            },
+            "img": "./data/91-100/907.png",
+            "floors": [
+                93,
+                94,
+                95,
+                96,
+                97,
+                98
+            ],
+            "stun": true,
+            "aggro": 1,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "레프트 넥터",
+                        "en": "Honeyed Left",
+                        "ja": "レフトネクター"
+                    },
+                    "area_img": "data\\skillran\\saw_left.png",
+                    "desc": "정면에서 회피 가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "라이트 넥터",
+                        "en": "Honeyed Right",
+                        "ja": "ライトネクター"
+                    },
+                    "area_img": "data\\skillran\\saw_right.png",
+                    "desc": "정면에서 회피 가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "프론트 넥터",
+                        "en": "Honeyed Front",
+                        "ja": "フロントネクター"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 908,
+            "name": {
+                "ko": "바체라",
+                "en": "Invoked Bachelo",
+                "ja": "インヴォークド・バチェラー"
+            },
+            "img": "./data/91-100/908.png",
+            "floors": [
+                94,
+                95,
+                96
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "아라크네 웹",
+                        "en": "Arachne Web",
+                        "ja": "アンキレーウェブ"
+                    },
+                    "area_img": "data\\skillran\\lockon.png",
+                    "desc": "둔화 부여.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "섀도 버스트",
+                        "en": "Shadow Burst",
+                        "ja": "シャドウバースト"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "둔화에 걸린 대상에게 우선 시전.",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 909,
+            "name": {
+                "ko": "알케오 데몬",
+                "en": "Invoked Archaeodemon",
+                "ja": "インヴォークド・アルケオデーモン"
+            },
+            "img": "./data/91-100/909.png",
+            "floors": [
+                95,
+                96,
+                97,
+                98
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": true,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "언홀리 다크네스",
+                        "en": "Unholy Darkness",
+                        "ja": "ダークホーリー"
+                    },
+                    "area_img": "data\\skillran\\circle.png",
+                    "desc": "차단 가능.",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "라이프 브레이크",
+                        "en": "Karma",
+                        "ja": "ライフブレイク"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 910,
+            "name": {
+                "ko": "말레보랜스",
+                "en": "Traverse Malevolence",
+                "ja": "トラバース・マレヴォレンス"
+            },
+            "img": "./data/91-100/910.png",
+            "floors": [
+                95,
+                96,
+                97
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 1,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "스매싱 블로우",
+                        "en": "Smashing Blow",
+                        "ja": "スマッシュブロー"
+                    },
+                    "area_img": "data\\skillran\\corn_front.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 0,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 911,
+            "name": {
+                "ko": "데스트루드",
+                "en": "Invoked Destrudo",
+                "ja": "インヴォークド・デストルドー"
+            },
+            "img": "./data/91-100/911.png",
+            "floors": [
+                96,
+                97,
+                98
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 0,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "죽음의 시선",
+                        "en": "Mortal Gaze",
+                        "ja": "死の視線"
+                    },
+                    "area_img": "data\\skillran\\dontlook.png",
+                    "desc": "죽음의 선고 부여. 해제 가능.",
+                    "cast": 0,
+                    "size": 4,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "괴광선",
+                        "en": "Stare",
+                        "ja": "怪光線"
+                    },
+                    "area_img": "data\\skillran\\square.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 912,
+            "name": {
+                "ko": "구시온",
+                "en": "Invoked Gusion",
+                "ja": "インヴォークド・グシオン"
+            },
+            "img": "./data/91-100/912.png",
+            "floors": [
+                96,
+                97,
+                98
+            ],
+            "stun": false,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 3,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "레프트 슬램",
+                        "en": "Left Smite",
+                        "ja": "レフトスラム"
+                    },
+                    "area_img": "data\\skillran\\half_left.png",
+                    "desc": "시전 후 바로 반대편 공격.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "라이트 슬램",
+                        "en": "Right Smite",
+                        "ja": "ライトスラム"
+                    },
+                    "area_img": "data\\skillran\\half_right.png",
+                    "desc": "시전 후 바로 반대편 공격.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": true
+                },
+                {
+                    "name": {
+                        "ko": "구시온 엠브레이스",
+                        "en": "Gusion's Embrace",
+                        "ja": ""
+                    },
+                    "area_img": "",
+                    "desc": "",
+                    "cast": 1,
+                    "size": 3,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 913,
+            "name": {
+                "ko": "아케론",
+                "en": "Invoked Acheron",
+                "ja": "インヴォークド・アケローン"
+            },
+            "img": "./data/91-100/913.png",
+            "floors": [
+                96,
+                97,
+                98
+            ],
+            "stun": true,
+            "aggro": 0,
+            "roaming": false,
+            "warning": 1,
+            "skills_Amount": 2,
+            "skills": [
+                {
+                    "name": {
+                        "ko": "어서리티 엣지(왼쪽)",
+                        "en": "Authority's Edge(Left)",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\half_left.png",
+                    "desc": "칼을 든 방향으로 절반 공격.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "어서리티 엣지(오른쪽)",
+                        "en": "Authority's Edge(Right)",
+                        "ja": ""
+                    },
+                    "area_img": "data\\skillran\\half_right.png",
+                    "desc": "칼을 든 방향으로 절반 공격.",
+                    "cast": 0,
+                    "size": 2,
+                    "rush": false,
+                    "link": false
+                }
+            ],
+            "boss": false,
+            "boss_img": null
+        },
+        {
+            "tag": 914,
+            "name": {
+                "ko": "에미넌트 그리프",
+                "en": "Eminent Grief",
+                "ja": "エミネントグリーフ"
+            },
+            "img": "./data/91-100/914.png",
+            "floors": [
+                99
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss99.png"
+        },
+        {
+            "tag": 915,
+            "name": {
+                "ko": "침식당한 죄식자",
+                "en": "Devoured Eater",
+                "ja": "侵食された罪喰い"
+            },
+            "img": "./data/91-100/915.png",
+            "floors": [
+                99
+            ],
+            "stun": false,
+            "aggro": 2,
+            "roaming": false,
+            "warning": 2,
+            "skills_Amount": 0,
+            "skills": [],
+            "boss": true,
+            "boss_img": "data\\boss\\boss99.png"
+        }
+    ]
 }
