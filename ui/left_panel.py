@@ -104,17 +104,26 @@ class MonsterListView(ctk.CTkScrollableFrame):
                 newcomers.append(m)
             else:
                 others.append(m)
+                
+        newcomers.sort(key=lambda m: m.get("warning", 0), reverse=True)
 
-        current = newcomers + others  # newcomers 먼저
+        others.sort(
+            key=lambda m: (
+                m.get("warning", 0),                    # 위험도
+                m.get("name", {}).get("ko", "zzz"),     # 한글 이름으로 2차 정렬
+            ),
+            reverse=True  # 위험도 큰 게 먼저
+        )
+        ordered = newcomers + others
 
-        if not current:
+        if not ordered:
             ctk.CTkLabel(self, 
                 text="버근가",
                 font=self.fonts["monster_name"], 
                 text_color="#0f2c63").pack(pady=20)
             return
 
-        for i, monster in enumerate(current):
+        for i, monster in enumerate(ordered):
             frame = ctk.CTkFrame(
                 self, 
                 fg_color=colors.get(monster.get("warning", 0), "#e0efff"), 
@@ -229,3 +238,4 @@ class MonsterListView(ctk.CTkScrollableFrame):
 
         if hasattr(self, "_scrollrouter_refresh"):
             self._scrollrouter_refresh()
+
