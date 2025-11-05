@@ -218,7 +218,7 @@
             "aggro": 0,
             "roaming": false,
             "warning": 0,
-            "skills_Amount": 2,
+            "skills_Amount": 1,
             "skills": [
                 {
                     "name": {
@@ -227,19 +227,6 @@
                         "ja": "カノピー"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
-                    "desc": "",
-                    "cast": 0,
-                    "size": 1,
-                    "rush": false,
-                    "link": false
-                },
-                {
-                    "name": {
-                        "ko": "백핸드 블로우",
-                        "en": "Backhand Blow",
-                        "ja": ""
-                    },
-                    "area_img": "data\\skillran\\corn_back.png",
                     "desc": "",
                     "cast": 0,
                     "size": 1,
@@ -273,7 +260,7 @@
                     "name": {
                         "ko": "슬로우콜",
                         "en": "Slowcall",
-                        "ja": ""
+                        "ja": "スロウコール"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -592,10 +579,10 @@
                     "name": {
                         "ko": "파울 바이트",
                         "en": "Foul Bite",
-                        "ja": ""
+                        "ja": "ファウルバイト"
                     },
                     "area_img": "",
-                    "desc": "강공격.",
+                    "desc": "",
                     "cast": 1,
                     "size": 3,
                     "rush": false,
@@ -771,7 +758,7 @@
                     "name": {
                         "ko": "할퀴기",
                         "en": "Rake",
-                        "ja": ""
+                        "ja": "ひっかき"
                     },
                     "area_img": "",
                     "desc": "",
@@ -806,7 +793,7 @@
                     "name": {
                         "ko": "헤드 벗",
                         "en": "Head Butt",
-                        "ja": ""
+                        "ja": "ヘッドバット"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -843,7 +830,7 @@
                     "name": {
                         "ko": "데라시네이터",
                         "en": "Deracinator",
-                        "ja": ""
+                        "ja": "デラシネーター"
                     },
                     "area_img": "",
                     "desc": "",
@@ -905,7 +892,7 @@
                     "name": {
                         "ko": "꼬리 휩쓸기",
                         "en": "Tail Whip",
-                        "ja": ""
+                        "ja": "テールウィップ"
                     },
                     "area_img": "",
                     "desc": "",
@@ -938,9 +925,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "브로우비트",
+                        "ko": "구타",
                         "en": "Browbeat",
-                        "ja": ""
+                        "ja": "殴打"
                     },
                     "area_img": "",
                     "desc": "",
@@ -1215,7 +1202,7 @@
                     "name": {
                         "ko": "비트 다운",
                         "en": "Beatdown",
-                        "ja": ""
+                        "ja": "ビートダウン"
                     },
                     "area_img": "",
                     "desc": "",
@@ -1233,7 +1220,7 @@
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": false
                 }
@@ -1263,7 +1250,7 @@
                     "name": {
                         "ko": "애시드 스트림",
                         "en": "Acrid Stream",
-                        "ja": ""
+                        "ja": "アクリッドストリーム"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "",
@@ -1361,7 +1348,7 @@
                     "name": {
                         "ko": "생크티파이 파이라",
                         "en": "Sanctified Fire II",
-                        "ja": ""
+                        "ja": "サンクティファイド・ファイラ"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "차단 가능.",
@@ -1374,7 +1361,7 @@
                     "name": {
                         "ko": "생크티파이 플레어",
                         "en": "Sanctified Flare",
-                        "ja": ""
+                        "ja": "サンクティファイド・フレア"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "",
@@ -1411,7 +1398,7 @@
                     "name": {
                         "ko": "할퀴기",
                         "en": "Rake",
-                        "ja": ""
+                        "ja": "ひっかき"
                     },
                     "area_img": "",
                     "desc": "",
@@ -1424,7 +1411,7 @@
                     "name": {
                         "ko": "루멘 인피니텀",
                         "en": "Lumen Infinitum",
-                        "ja": ""
+                        "ja": "ルーメンインフィニーテム"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -1459,12 +1446,12 @@
                     "name": {
                         "ko": "리퍼 클로우",
                         "en": "Ripper Claw",
-                        "ja": ""
+                        "ja": "リッパーヅロウ"
                     },
-                    "area_img": "data\\skillran\\corn_front.png",
+                    "area_img": "",
                     "desc": "",
                     "cast": 0,
-                    "size": 0,
+                    "size": 3,
                     "rush": false,
                     "link": false
                 },
@@ -1508,7 +1495,7 @@
                     "name": {
                         "ko": "슬래쉬",
                         "en": "Slash",
-                        "ja": ""
+                        "ja": "スラッシュ"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -1543,7 +1530,7 @@
                     "name": {
                         "ko": "피스트 오브 레이지",
                         "en": "Fists of Rage",
-                        "ja": ""
+                        "ja": "ナックルウェーブ"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "",
@@ -1556,7 +1543,7 @@
                     "name": {
                         "ko": "스톤 라이트",
                         "en": "Stonelight",
-                        "ja": ""
+                        "ja": "巨像の光"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -1589,9 +1576,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "Words of Woe",
+                        "ko": "워드 오브 위",
                         "en": "Words of Woe",
-                        "ja": ""
+                        "ja": "ワード・オブ・ウー"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -1602,9 +1589,9 @@
                 },
                 {
                     "name": {
-                        "ko": "스윈지",
+                        "ko": "스윙",
                         "en": "Swinge",
-                        "ja": ""
+                        "ja": "スイング"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
@@ -1661,7 +1648,7 @@
                     "name": {
                         "ko": "라베노우스 바이트",
                         "en": "Ravenous Bite",
-                        "ja": ""
+                        "ja": "ラヴェナスバイト"
                     },
                     "area_img": "",
                     "desc": "",
@@ -1697,7 +1684,7 @@
                     "name": {
                         "ko": "갤롭",
                         "en": "Gallop",
-                        "ja": ""
+                        "ja": "ギャロップ"
                     },
                     "area_img": "data\\skillran\\rush_aoe.png",
                     "desc": "",
@@ -1708,9 +1695,9 @@
                 },
                 {
                     "name": {
-                        "ko": "니커",
+                        "ko": "천마의 울음소리",
                         "en": "Nicker",
-                        "ja": ""
+                        "ja": "天馬のいななき"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
@@ -1745,7 +1732,7 @@
                     "name": {
                         "ko": "생크티파이 블리자라",
                         "en": "Sanctified Blizzard II",
-                        "ja": ""
+                        "ja": "サンクティファイド・プリザラ"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "차단 가능.",
@@ -1782,7 +1769,7 @@
                     "name": {
                         "ko": "사이드 슬립",
                         "en": "Sideslip",
-                        "ja": ""
+                        "ja": "サイドスリップ"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
@@ -1811,7 +1798,7 @@
         {
             "tag": 305,
             "name": {
-                "ko": "그리핀",
+                "ko": "야쿠르스",
                 "en": "Traverse Jaculus",
                 "ja": "トラバース・ヤクルス"
             },
@@ -1832,7 +1819,7 @@
                     "name": {
                         "ko": "알핀 드래프트",
                         "en": "Alpine Draft",
-                        "ja": ""
+                        "ja": "アルペンドラフト"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -1845,7 +1832,7 @@
                     "name": {
                         "ko": "골든 탈론",
                         "en": "Golden Talons",
-                        "ja": ""
+                        "ja": "ゴールデンタロン"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -1882,7 +1869,7 @@
                     "name": {
                         "ko": "마나 부스트",
                         "en": "Mana Boost",
-                        "ja": ""
+                        "ja": "マナプースター"
                     },
                     "area_img": "",
                     "desc": "대미지 증가 버프.",
@@ -1893,9 +1880,9 @@
                 },
                 {
                     "name": {
-                        "ko": "언투 더스트",
+                        "ko": "폭렬",
                         "en": "Unto Dust",
-                        "ja": ""
+                        "ja": "爆裂"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "체력이 낮을 때 사용.",
@@ -1931,7 +1918,7 @@
                     "name": {
                         "ko": "기벳 케이지",
                         "en": "Gibbet Cage",
-                        "ja": ""
+                        "ja": "ジベットケージ"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
@@ -1944,7 +1931,7 @@
                     "name": {
                         "ko": "우든 홀스",
                         "en": "Wooden Horse",
-                        "ja": ""
+                        "ja": "ウッデンホース"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -1981,7 +1968,7 @@
                     "name": {
                         "ko": "캐칭 클로",
                         "en": "Catching Claws",
-                        "ja": ""
+                        "ja": "キャッチクロウ"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -1992,14 +1979,14 @@
                 },
                 {
                     "name": {
-                        "ko": "라이온 블레이즈",
+                        "ko": "사자의 업화",
                         "en": "Lionsblaze",
-                        "ja": ""
+                        "ja": "獅子の業火"
                     },
                     "area_img": "data\\skillran\\square.png",
-                    "desc": "",
+                    "desc": "좁은 부채꼴.\n전방 길이가 김.",
                     "cast": 0,
-                    "size": 0,
+                    "size": 2,
                     "rush": false,
                     "link": false
                 }
@@ -2029,27 +2016,27 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "포이즌 폴른 페어-전방",
-                        "en": "Poison Pollen Pair-front",
-                        "ja": ""
+                        "ko": "포이즌 폴른 페어(전방)",
+                        "en": "Poison Pollen Pair(전방)",
+                        "ja": "ダブル・ポイズンポレン(전방)"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "사용 후 바로 후방 부채꼴 공격.",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": true
                 },
                 {
                     "name": {
-                        "ko": "포이즌 폴른 페어-후방",
-                        "en": "Poison Pollen Pair-back",
-                        "ja": ""
+                        "ko": "포이즌 폴른 페어(후방)",
+                        "en": "Poison Pollen Pair(후방)",
+                        "ja": "ダブル・ポイズンポレン(후방)"
                     },
                     "area_img": "data\\skillran\\corn_back.png",
                     "desc": "",
                     "cast": 1,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": false
                 },
@@ -2057,7 +2044,7 @@
                     "name": {
                         "ko": "할퀴기",
                         "en": "Rake",
-                        "ja": ""
+                        "ja": "ひっかき"
                     },
                     "area_img": "",
                     "desc": "",
@@ -2091,9 +2078,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "스펠소드",
+                        "ko": "주박참",
                         "en": "Spellsword",
-                        "ja": ""
+                        "ja": "呪縛斬"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -2104,9 +2091,9 @@
                 },
                 {
                     "name": {
-                        "ko": "데스 도어",
+                        "ko": "장송격",
                         "en": "Death's Door",
-                        "ja": ""
+                        "ja": "葬送撃"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -2141,9 +2128,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "핸드 오브 저지먼트",
+                        "ko": "강충권",
                         "en": "Hand of judgement",
-                        "ja": ""
+                        "ja": "強衝拳"
                     },
                     "area_img": "data\\skillran\\lockon_solo.png",
                     "desc": "랜덤 대상 넉백 공격.",
@@ -2154,9 +2141,9 @@
                 },
                 {
                     "name": {
-                        "ko": "피스트 오브 레이지",
+                        "ko": "너클 웨이브",
                         "en": "Fists of Rage",
-                        "ja": ""
+                        "ja": "ナクルウェープ"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "이후 버스터 너클로 연계.",
@@ -2171,7 +2158,7 @@
                         "en": "Buster Knuckles",
                         "ja": ""
                     },
-                    "area_img": "data\\skillran\\dynamo.png",
+                    "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
                     "cast": 1,
                     "size": 1,
@@ -2182,12 +2169,12 @@
                     "name": {
                         "ko": "라인 오브 파이어",
                         "en": "Line of Fire",
-                        "ja": ""
+                        "ja": "ウェープキャノン"
                     },
-                    "area_img": "data\\skillran\\large_square.png",
+                    "area_img": "data\\skillran\\square.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": false
                 }
@@ -2212,29 +2199,16 @@
             "aggro": 0,
             "roaming": false,
             "warning": 0,
-            "skills_Amount": 2,
+            "skills_Amount": 1,
             "skills": [
                 {
                     "name": {
-                        "ko": "페트리파이 라이트",
+                        "ko": "성별의 빛",
                         "en": "Petrifying Light",
-                        "ja": ""
-                    },
-                    "area_img": "data\\skillran\\dontlook.png",
-                    "desc": "",
-                    "cast": 0,
-                    "size": 3,
-                    "rush": false,
-                    "link": false
-                },
-                {
-                    "name": {
-                        "ko": "생크티피케이션",
-                        "en": "Sanctification",
-                        "ja": ""
+                        "ja": "聖別の光"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
-                    "desc": "석화 상태로 맞을 경우 즉사.",
+                    "desc": "",
                     "cast": 0,
                     "size": 0,
                     "rush": false,
@@ -2267,7 +2241,7 @@
                     "name": {
                         "ko": "왼쪽 촉수",
                         "en": "Left Tentacle",
-                        "ja": ""
+                        "ja": "レフト・テンタクル"
                     },
                     "area_img": "data\\skillran\\half_left.png",
                     "desc": "",
@@ -2280,7 +2254,7 @@
                     "name": {
                         "ko": "오른쪽 촉수",
                         "en": "Right Tentacle",
-                        "ja": ""
+                        "ja": "ライト・テンタクル"
                     },
                     "area_img": "data\\skillran\\half_right.png",
                     "desc": "",
@@ -2337,20 +2311,20 @@
                     "name": {
                         "ko": "드리핑 팽",
                         "en": "Dripping Fang",
-                        "ja": ""
+                        "ja": "ドリッピングファング"
                     },
                     "area_img": "",
-                    "desc": "",
-                    "cast": 1,
+                    "desc": "차단 가능.",
+                    "cast": 0,
                     "size": 3,
                     "rush": false,
                     "link": false
                 },
                 {
                     "name": {
-                        "ko": "Regorge",
+                        "ko": "리고지",
                         "en": "Regorge",
-                        "ja": ""
+                        "ja": "リゴージ"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "",
@@ -2366,7 +2340,7 @@
         {
             "tag": 402,
             "name": {
-                "ko": "사마귀",
+                "ko": "맨티스",
                 "en": "Traverse Mantis",
                 "ja": "トラバース・マンティス"
             },
@@ -2384,9 +2358,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "이리 사운드웨이브",
+                        "ko": "괴음파",
                         "en": "Eerie Soundwave",
-                        "ja": ""
+                        "ja": "怪音波"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
@@ -2399,7 +2373,7 @@
                     "name": {
                         "ko": "스탠팅 차인",
                         "en": "Standing Chine",
-                        "ja": ""
+                        "ja": "スタンデインチャイン"
                     },
                     "area_img": "",
                     "desc": "",
@@ -2434,7 +2408,7 @@
                     "name": {
                         "ko": "파이어볼",
                         "en": "Fireball",
-                        "ja": ""
+                        "ja": "ファイアボール"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "",
@@ -2463,7 +2437,7 @@
             ],
             "stun": true,
             "aggro": 0,
-            "roaming": false,
+            "roaming": true,
             "warning": 0,
             "skills_Amount": 2,
             "skills": [
@@ -2471,7 +2445,7 @@
                     "name": {
                         "ko": "애시드 스프레이",
                         "en": "Acid Spray",
-                        "ja": ""
+                        "ja": "アシッドスプレー"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -2484,7 +2458,7 @@
                     "name": {
                         "ko": "헤이스트",
                         "en": "Haste",
-                        "ja": ""
+                        "ja": "ヘイスト"
                     },
                     "area_img": "",
                     "desc": "버프 스킬.",
@@ -2519,9 +2493,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "휠 오브 레이지",
+                        "ko": "분노의 선풍",
                         "en": "Whirl of Rage",
-                        "ja": ""
+                        "ja": "怒りの旋風"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "맞으면 기절.",
@@ -2532,9 +2506,9 @@
                 },
                 {
                     "name": {
-                        "ko": "스마이트 오브 레이지",
+                        "ko": "분노의 일격",
                         "en": "Smite of Rage",
-                        "ja": ""
+                        "ja": "怒りの一撃"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -2550,13 +2524,12 @@
         {
             "tag": 406,
             "name": {
-                "ko": "거북이",
+                "ko": "토르바",
                 "en": "Traverse Troubadour",
                 "ja": "トラバース・トルバ"
             },
             "img": "./data/41-50/406.png",
             "floors": [
-                43,
                 44,
                 45,
                 46
@@ -2584,10 +2557,10 @@
                     "name": {
                         "ko": "톨토이즈 스톰프",
                         "en": "Tortoise Stomp",
-                        "ja": ""
+                        "ja": "トータルルトンプ"
                     },
                     "area_img": "data\\skillran\\chariot.png",
-                    "desc": "",
+                    "desc": "시전 시간이 매우 긺.",
                     "cast": 0,
                     "size": 0,
                     "rush": false,
@@ -2620,7 +2593,7 @@
                     "name": {
                         "ko": "에테르 블래스트",
                         "en": "Aetherial Blast",
-                        "ja": ""
+                        "ja": "エーテルプラスト"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -2633,7 +2606,7 @@
                     "name": {
                         "ko": "휩 크랙",
                         "en": "Whipcrack",
-                        "ja": ""
+                        "ja": "ウィップクラック"
                     },
                     "area_img": "",
                     "desc": "",
@@ -2663,7 +2636,7 @@
             "aggro": 0,
             "roaming": false,
             "warning": 0,
-            "skills_Amount": 1,
+            "skills_Amount": 2,
             "skills": [
                 {
                     "name": {
@@ -2675,6 +2648,19 @@
                     "desc": "",
                     "cast": 0,
                     "size": 0,
+                    "rush": false,
+                    "link": false
+                },
+                {
+                    "name": {
+                        "ko": "테일 스매쉬",
+                        "en": "Fireball",
+                        "ja": "テールスマッシュ"
+                    },
+                    "area_img": "data\\skillran\\chariot.png",
+                    "desc": "",
+                    "cast": 0,
+                    "size": 1,
                     "rush": false,
                     "link": false
                 }
@@ -2706,12 +2692,12 @@
                     "name": {
                         "ko": "오디우스 에어",
                         "en": "Odious Air",
-                        "ja": ""
+                        "ja": "オディアルエアー"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": false
                 },
@@ -2719,7 +2705,7 @@
                     "name": {
                         "ko": "바인 휩",
                         "en": "Vine Whip",
-                        "ja": ""
+                        "ja": "ヴァインウィップ"
                     },
                     "area_img": "",
                     "desc": "",
@@ -2735,7 +2721,7 @@
         {
             "tag": 410,
             "name": {
-                "ko": "골렘",
+                "ko": "에피지",
                 "en": "Traverse Petreffigy",
                 "ja": "トラバース・エフィジィ"
             },
@@ -2806,12 +2792,12 @@
                     "name": {
                         "ko": "크리핑 콤비네이션(1)",
                         "en": "Creeping Combination(1)",
-                        "ja": ""
+                        "ja": "ダブル・クリーピング(1)"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "정면 공격 이후 뒤돌아서 한번 더 공격.",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": true
                 },
@@ -2819,12 +2805,12 @@
                     "name": {
                         "ko": "크리핑 콤비네이션(2)",
                         "en": "Creeping Combination(2)",
-                        "ja": ""
+                        "ja": "ダブル・クリーピング(2)"
                     },
                     "area_img": "data\\skillran\\corn_back.png",
                     "desc": "첫 공격 사용 후 뒤돌아서 공격하므로...\n후방 공격으로 표시함.",
                     "cast": 1,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": false
                 }
@@ -2853,9 +2839,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "바이팅 윈드",
+                        "ko": "토네이도",
                         "en": "Biting Wind",
-                        "ja": ""
+                        "ja": "トルネド"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "차단 가능.",
@@ -2868,7 +2854,7 @@
                     "name": {
                         "ko": "서레이티드 스핀",
                         "en": "Serrated Spin",
-                        "ja": ""
+                        "ja": "セルライトスピン"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
@@ -2909,7 +2895,7 @@
                     "area_img": "data\\skillran\\square.png",
                     "desc": "사용 후, 같은 경로로 한번 더 돌진.",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": true,
                     "link": true
                 },
@@ -2922,7 +2908,7 @@
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
                     "cast": 1,
-                    "size": 1,
+                    "size": 0,
                     "rush": true,
                     "link": false
                 },
@@ -2930,7 +2916,7 @@
                     "name": {
                         "ko": "맨디뷸러 바이트",
                         "en": "Mandibular Bite",
-                        "ja": ""
+                        "ja": "マンディビュラバイト"
                     },
                     "area_img": "",
                     "desc": "",
@@ -2966,7 +2952,7 @@
         {
             "tag": 501,
             "name": {
-                "ko": "풍뎅이",
+                "ko": "비틀",
                 "en": "Traverse Beetle",
                 "ja": "トラバース・ビートル"
             },
@@ -2985,7 +2971,7 @@
                     "name": {
                         "ko": "라이노 어택",
                         "en": "Rhino Attack",
-                        "ja": ""
+                        "ja": "ライノアタック"
                     },
                     "area_img": "",
                     "desc": "",
@@ -3031,9 +3017,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "포이즌 미스트",
+                        "ko": "독무",
                         "en": "Poison Mist",
-                        "ja": ""
+                        "ja": "毒霧"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -3049,7 +3035,7 @@
         {
             "tag": 503,
             "name": {
-                "ko": "전갈",
+                "ko": "브라운클로",
                 "en": "Traverse Tawnyclaw",
                 "ja": "トラバース・ブラウンクロウ"
             },
@@ -3069,7 +3055,7 @@
                     "name": {
                         "ko": "테일 스크류",
                         "en": "Tail Screw",
-                        "ja": ""
+                        "ja": "テールスクリュー"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "최대체력의 80% 피해.",
@@ -3080,9 +3066,9 @@
                 },
                 {
                     "name": {
-                        "ko": "임페일",
+                        "ko": "꿰뚫기",
                         "en": "Impale",
-                        "ja": ""
+                        "ja": "串刺し"
                     },
                     "area_img": "",
                     "desc": "",
@@ -3181,7 +3167,7 @@
                     "name": {
                         "ko": "배터 호른",
                         "en": "Batterhorn",
-                        "ja": ""
+                        "ja": "バッターホーン"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -3194,7 +3180,7 @@
                     "name": {
                         "ko": "호리드 호른",
                         "en": "Horrid Horn",
-                        "ja": ""
+                        "ja": "ホリッドホーン"
                     },
                     "area_img": "",
                     "desc": "",
@@ -3228,9 +3214,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "스몰더링 스케일",
+                        "ko": "불꽃의 비늘",
                         "en": "Smoldering Scales",
-                        "ja": ""
+                        "ja": "炎の鱗"
                     },
                     "area_img": "",
                     "desc": "반사 버프.\n근접스킬, 물리 평타 사용금지.",
@@ -3243,7 +3229,7 @@
                     "name": {
                         "ko": "버닝 사이클론",
                         "en": "Burning Cyclone",
-                        "ja": ""
+                        "ja": "バーニングサイクロン"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -3259,7 +3245,7 @@
         {
             "tag": 507,
             "name": {
-                "ko": "에이비스",
+                "ko": "이블 에이비스",
                 "en": "Traverse Fallen Aevis",
                 "ja": "トラバース・イビルエイビス"
             },
@@ -3308,7 +3294,7 @@
         {
             "tag": 508,
             "name": {
-                "ko": "커얼",
+                "ko": "카라칼",
                 "en": "Traverse Caracal",
                 "ja": "トラバース・カラカル"
             },
@@ -3559,9 +3545,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "바플먼트 불브",
+                        "ko": "비산성 혹란 꽃가루 덩어리",
                         "en": "Bafflement Bulb",
-                        "ja": ""
+                        "ja": "飛散性惑乱花粉塊"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "대미지는 없음. 플레이어에게 혼란 디버프.\n차단 가능.",
@@ -3574,7 +3560,7 @@
                     "name": {
                         "ko": "트라운스",
                         "en": "Trounce",
-                        "ja": ""
+                        "ja": "トラウンス"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -3587,12 +3573,12 @@
                     "name": {
                         "ko": "마이티 스핀",
                         "en": "Mighty Spin",
-                        "ja": ""
+                        "ja": "マイティスピン"
                     },
                     "area_img": "data\\skillran\\chariot.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 0,
+                    "size": 1,
                     "rush": false,
                     "link": false
                 }
@@ -3641,9 +3627,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "스트레이트 펀치",
+                        "ko": "본 브레이커",
                         "en": "Straight Punch",
-                        "ja": ""
+                        "ja": "ボーンブレイカー"
                     },
                     "area_img": "",
                     "desc": "",
@@ -3758,7 +3744,7 @@
         {
             "tag": 604,
             "name": {
-                "ko": "카멜레온",
+                "ko": "다우트",
                 "en": "Forgiven Doubt",
                 "ja": "フォーギヴン・ダウト"
             },
@@ -3777,7 +3763,7 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "슬립 오브 더 통",
+                        "ko": "달려들기",
                         "en": "Slip of the Tongue",
                         "ja": "飛びつき"
                     },
@@ -3834,7 +3820,7 @@
                     "name": {
                         "ko": "엑셀러레이트",
                         "en": "Accelerate",
-                        "ja": ""
+                        "ja": "突貫する"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "범위가 보이지 않는 돌진공격.\n이후 도넛 공격 시전함.",
@@ -3847,7 +3833,7 @@
                     "name": {
                         "ko": "서브덕션",
                         "en": "Subduction",
-                        "ja": ""
+                        "ja": "サブダックション"
                     },
                     "area_img": "data\\skillran\\dynamo.png",
                     "desc": "범위가 크진 않으므로 못붙겠으면 멀리 빼기.",
@@ -3944,6 +3930,7 @@
             },
             "img": "./data/61-70/607.png",
             "floors": [
+                63,
                 64,
                 65,
                 66
@@ -3958,7 +3945,7 @@
                     "name": {
                         "ko": "헤일 파이어",
                         "en": "Hailfire",
-                        "ja": ""
+                        "ja": "ヘイルファイア"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -4135,7 +4122,7 @@
         {
             "tag": 611,
             "name": {
-                "ko": "사보텐더",
+                "ko": "콘텐션",
                 "en": "Forgiven Contention",
                 "ja": "フォーギヴン・コンテンション"
             },
@@ -4154,9 +4141,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "약 바늘 1000개",
+                        "ko": "바늘 몇천개",
                         "en": "Several Thousand Needles",
-                        "ja": ""
+                        "ja": "針幾千本"
                     },
                     "area_img": "data\\skillran\\square.png",
                     "desc": "",
@@ -4169,7 +4156,7 @@
                     "name": {
                         "ko": "헤이스트",
                         "en": "Haste",
-                        "ja": ""
+                        "ja": "ヘイスト"
                     },
                     "area_img": "",
                     "desc": "헤이스트 버프.",
@@ -4203,7 +4190,7 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "보울더 토스",
+                        "ko": "투석",
                         "en": "Boulder Toss",
                         "ja": "投石"
                     },
@@ -4216,7 +4203,7 @@
                 },
                 {
                     "name": {
-                        "ko": "랜드슬립",
+                        "ko": "토석류",
                         "en": "Landslip",
                         "ja": "土石流"
                     },
@@ -4373,7 +4360,7 @@
                     "name": {
                         "ko": "크러시 팽",
                         "en": "Crushing Fangs",
-                        "ja": ""
+                        "ja": "グラッシュファング"
                     },
                     "area_img": "",
                     "desc": "체력이 낮아지면 계속 강공격.",
@@ -4500,7 +4487,7 @@
                     "name": {
                         "ko": "플링잉 차지",
                         "en": "Flinging Charge",
-                        "ja": ""
+                        "ja": "フリックチャージ"
                     },
                     "area_img": "data\\skillran\\lockon_solo.png",
                     "desc": "어글자를 향해 넉백, 독 부여.",
@@ -4601,7 +4588,7 @@
         {
             "tag": 708,
             "name": {
-                "ko": "지렁이",
+                "ko": "웜",
                 "en": "Traverse Worm",
                 "ja": "トラバース・ウォーム"
             },
@@ -4670,7 +4657,7 @@
                     "name": {
                         "ko": "오버바이트",
                         "en": "Overbite",
-                        "ja": ""
+                        "ja": "オーバーバイト"
                     },
                     "area_img": "",
                     "desc": "",
@@ -4744,7 +4731,8 @@
             "floors": [
                 76,
                 77,
-                78
+                78,
+                79
             ],
             "stun": true,
             "aggro": 0,
@@ -4782,7 +4770,7 @@
                     "name": {
                         "ko": "브레이크 비크",
                         "en": "Breakbeak",
-                        "ja": ""
+                        "ja": "ハードビル"
                     },
                     "area_img": "",
                     "desc": "",
@@ -4867,7 +4855,7 @@
                     "name": {
                         "ko": "크로스 레이저",
                         "en": "Cross Lasers",
-                        "ja": ""
+                        "ja": "クロスレーザー"
                     },
                     "area_img": "data\\skillran\\plus.png",
                     "desc": "캐스팅바가 보이지 않음.",
@@ -4878,9 +4866,9 @@
                 },
                 {
                     "name": {
-                        "ko": "페리페랄 레이저",
+                        "ko": "서클 레이저",
                         "en": "Peripheral Lasers",
-                        "ja": ""
+                        "ja": "サークルレーザー"
                     },
                     "area_img": "data\\skillran\\dynamo.png",
                     "desc": "캐스팅바가 보이지 않음.",
@@ -4934,9 +4922,9 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "배드 마우스",
+                        "ko": "욕설",
                         "en": "Bad-mouth",
-                        "ja": ""
+                        "ja": "ののしる"
                     },
                     "area_img": "",
                     "desc": "랜덤 대상에게 슬로우 디버프 부여.",
@@ -5368,7 +5356,6 @@
             },
             "img": "./data/81-90/810.png",
             "floors": [
-                86,
                 87,
                 88,
                 89
@@ -5409,7 +5396,7 @@
                     "name": {
                         "ko": "벨로우",
                         "en": "Bellows",
-                        "ja": ""
+                        "ja": "ベローズ"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
@@ -5425,13 +5412,12 @@
         {
             "tag": 811,
             "name": {
-                "ko": "사자",
+                "ko": "바엘",
                 "en": "Invoked Baal",
                 "ja": "インヴォークド・バエル"
             },
             "img": "./data/81-90/811.png",
             "floors": [
-                86,
                 87,
                 88,
                 89
@@ -5472,7 +5458,7 @@
                     "name": {
                         "ko": "파운스",
                         "en": "Pounce",
-                        "ja": ""
+                        "ja": "パウンス"
                     },
                     "area_img": "",
                     "desc": "",
@@ -6264,8 +6250,8 @@
                 {
                     "name": {
                         "ko": "어서리티 엣지(왼쪽)",
-                        "en": "Authority's Edge(Left)",
-                        "ja": ""
+                        "en": "Authority's Edge(왼쪽)",
+                        "ja": "オーソリティスラッシュ(왼쪽)"
                     },
                     "area_img": "data\\skillran\\half_left.png",
                     "desc": "칼을 든 방향으로 절반 공격.",
@@ -6277,8 +6263,8 @@
                 {
                     "name": {
                         "ko": "어서리티 엣지(오른쪽)",
-                        "en": "Authority's Edge(Right)",
-                        "ja": ""
+                        "en": "Authority's Edge(오른쪽)",
+                        "ja": "オーソリティスラッシュ(오른쪽)"
                     },
                     "area_img": "data\\skillran\\half_right.png",
                     "desc": "칼을 든 방향으로 절반 공격.",

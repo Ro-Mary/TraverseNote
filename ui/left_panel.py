@@ -83,8 +83,9 @@ class MonsterListView(ctk.CTkScrollableFrame):
     
     # 첫 등장?
     def _load_badges(self):
+        p = resource_path("data", "skillran", "icon", "firstenc.png")
         try:
-            self.img_newbadge = ctk.CTkImage(Image.open("./data/skillran/icon/firstenc.png"), size=(65, 65))
+            self.img_newbadge = ctk.CTkImage(Image.open(p), size=(65, 65))
         except Exception:
             self.img_newbadge = ctk.CTkImage(Image.open(self.test_path), size=(65, 65))
 
@@ -104,7 +105,7 @@ class MonsterListView(ctk.CTkScrollableFrame):
                 newcomers.append(m)
             else:
                 others.append(m)
-                
+
         newcomers.sort(key=lambda m: m.get("warning", 0), reverse=True)
 
         others.sort(
@@ -112,9 +113,10 @@ class MonsterListView(ctk.CTkScrollableFrame):
                 m.get("warning", 0),                    # 위험도
                 m.get("name", {}).get("ko", "zzz"),     # 한글 이름으로 2차 정렬
             ),
-            reverse=True  # 위험도 큰 게 먼저
+            reverse=True  # warning 큰 게 먼저
         )
         ordered = newcomers + others
+        #current = newcomers + others  # newcomers 먼저
 
         if not ordered:
             ctk.CTkLabel(self, 
@@ -159,14 +161,16 @@ class MonsterListView(ctk.CTkScrollableFrame):
                 ).place(relx=0.35, rely=0.11, anchor="w")
 
             # 한글 이름
-            name_ko = monster.get("name", {}).get("ko", "")
-            ctk.CTkLabel(
-                frame, 
-                text=name_ko, 
-                fg_color="transparent",
-                text_color="#0f2c63", 
-                font=("Malgun Gothic", 15, "bold")
-                ).place(relx=0.35, rely=0.28, anchor="w")
+            if self.lang_key != "ko":
+                name_ko = monster.get("name", {}).get("ko", "")
+                if name_ko:
+                    ctk.CTkLabel(
+                        frame, 
+                        text=name_ko, 
+                        fg_color="transparent",
+                        text_color="#0f2c63", 
+                        font=("Malgun Gothic", 15, "bold")
+                        ).place(relx=0.35, rely=0.26, anchor="w")
 
             # 기절
             if monster.get("stun", False):
@@ -238,4 +242,3 @@ class MonsterListView(ctk.CTkScrollableFrame):
 
         if hasattr(self, "_scrollrouter_refresh"):
             self._scrollrouter_refresh()
-
