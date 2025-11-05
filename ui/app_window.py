@@ -31,8 +31,8 @@ class MonsterDexApp(ctk.CTk):
         self.monsters = load_monsters_from_json(resource_path("data", "monsters.json"))
 
         # 언어
-        self.lang_options = ["영어", "일본어"]
-        self.lang_map     = {"영어": "en", "일본어": "ja"}
+        self.lang_options = ["영어", "일본어", "한국어"]
+        self.lang_map     = {"영어": "en", "일본어": "ja", "한국어": "ko"}
         self.nowLangKey   = "en"
         self.fonts = build_fonts(self.nowLangKey)
 

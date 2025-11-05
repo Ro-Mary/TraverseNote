@@ -11,15 +11,29 @@ def pick_font_family(lang: str) -> str:
 def build_fonts(lang: str):
     base = {
         "title": 30,
-        "monster_name": 30,
+        "monster_name": 25,
         "monster_sub": 15,
-        "skill_name": 30,
+        "skill_name": 25,
         "skill_desc": 15,
     }
-    scale = 0.75 if lang == "ja" else 1.0
+    
+    if lang == "ja":
+        scale = 0.85 
+    else: 
+        scale = 1.0
     fam = pick_font_family(lang)
-    fonts = {}
-    for k, sz in base.items():
-        weight = "bold" if k in ("title", "monster_name", "skill_name") else "normal"
-        fonts[k] = ctk.CTkFont(family=fam, size=int(sz * scale), weight=weight)
-    return fonts
+
+    def mk(key: str, weight: str = "normal"):
+        return ctk.CTkFont(
+            family=fam,
+            size=int(base[key] * scale),
+            weight=weight
+        )
+    return {
+        "title":        mk("title",        "bold"),
+        "monster_name": mk("monster_name", "bold"),
+        "monster_sub":  mk("monster_sub"),
+        "skill_name":   mk("skill_name",   "bold"),
+        "skill_desc":   mk("skill_desc"),
+    }
+    

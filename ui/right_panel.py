@@ -138,7 +138,7 @@ class AttackInfoView(ctk.CTkScrollableFrame):
                 s = skills[i]
                 s_name = get_lang_text(s.get("name"), self.lang_key)
                 s_desc = get_lang_text(s.get("desc"), self.lang_key)
-                s_name_ko = monster["skills"][i]["name"]["ko"]
+                #s_name_ko = monster["skills"][i]["name"]["ko"]
                 area   = s.get("area_img")
                 s_size = s.get("size", 0)
             else:
@@ -157,14 +157,17 @@ class AttackInfoView(ctk.CTkScrollableFrame):
                 fg_color="transparent"
             ).place(relx=0.385, rely=0.1, anchor="w")
             
-            # 스킬 한글이름
-            ctk.CTkLabel(
-                card, 
-                text=s_name_ko, 
-                font=(("Malgun Gothic", 15, "bold")),
-                text_color="#0f2c63", 
-                fg_color="transparent"
-            ).place(relx=0.385, rely=0.23, anchor="w")
+            if self.lang_key != "ko":
+                s_name_ko = s.get("name", {}).get("ko", "")
+                if s_name_ko:
+                    # 스킬 한글이름
+                    ctk.CTkLabel(
+                        card, 
+                        text=s_name_ko, 
+                        font=(("Malgun Gothic", 15, "bold")),
+                        text_color="#0f2c63", 
+                        fg_color="transparent"
+                    ).place(relx=0.385, rely=0.23, anchor="w")
             
             # 스킬 코멘트
             if s_desc=="":
