@@ -1299,7 +1299,7 @@
                     "name": {
                         "ko": "테러 아이",
                         "en": "Terror Eye",
-                        "ja": ""
+                        "ja": "テラーアイ"
                     },
                     "area_img": "data\\skillran\\circle.png",
                     "desc": "",
@@ -1312,7 +1312,7 @@
                     "name": {
                         "ko": "블러디 클로우",
                         "en": "Bloody Claw",
-                        "ja": ""
+                        "ja": "ブラッディークロウ"
                     },
                     "area_img": "",
                     "desc": "",
@@ -6318,4 +6318,5 @@
             "boss_img": "data\\boss\\boss99.png"
         }
     ]
+
 }
