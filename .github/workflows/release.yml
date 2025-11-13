@@ -24,13 +24,7 @@ jobs:
 
       - name: Build (onedir)
         run: |
-          pyinstaller app.py ^
-            --name TraverseNote ^
-            --noconfirm ^
-            --noconsole ^
-            --add-data "data;data" ^
-            --clean ^
-            --noupx
+          pyinstaller app.py --name TraverseNote --noconfirm --noconsole --add-data "data;data" --clean --noupx
 
       - name: Zip onedir
         shell: pwsh
