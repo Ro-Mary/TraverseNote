@@ -3,7 +3,7 @@ name: Release-onedir
 on:
   push:
     tags:
-      - "v1.0"
+      - "v*"
 
 jobs:
   build-release:
