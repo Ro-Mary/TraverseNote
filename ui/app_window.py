@@ -12,9 +12,17 @@ from utils.path import resource_path
 
 class MonsterDexApp(ctk.CTk):
     def __init__(self):
+        if sys.platform.startswith("win"):
+            try:
+                ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("MyCompany.TraverseNote")
+            except Exception:
+                pass
+                
         super().__init__()
 
         # 앱 설정
+        self.iconbitmap(default=str(resource_path("data", "icon.ico")))
+        
         ctk.set_appearance_mode("Light")
         ctk.set_default_color_theme("blue")
 
@@ -239,3 +247,4 @@ class MonsterDexApp(ctk.CTk):
         self.selected_monster = monster
         #self.attackInfo_Frame._render_normal_monster(monster)
         self.attackInfo_Frame.show_monster(monster)
+
