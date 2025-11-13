@@ -1,6 +1,20 @@
-import json
+import json, os
 from pathlib import Path
 from typing import List, Dict, Any
+from utils.path import resource_path
+
+def _norm_asset_path(rel: str | None) -> str | None:
+    if not rel:
+        return None
+    p = Path(rel)
+
+    parts = [seg for seg in p.parts if seg not in (".",)]
+
+    if parts and parts[0].lower() == "data":
+        parts[0] = "data"
+
+    abs_path = p if p.is_absolute() else resource_path(*parts)
+    return str(abs_path)
 
 def load_monsters_from_json(path: str | Path) -> List[Dict[str, Any]]:
     p = Path(path)
@@ -8,25 +22,17 @@ def load_monsters_from_json(path: str | Path) -> List[Dict[str, Any]]:
         data = json.load(f)
 
     monsters = data.get("monsters", [])
-    valid = []
+    valid: List[Dict[str, Any]] = []
     for i, m in enumerate(monsters):
-        # 필수 체크
-        if not isinstance(m.get("name", {}), dict) or "ko" not in m["name"]:
-            print(f"[warn] monsters[{i}] name.ko 누락 → 제외"); continue
-        if "floors" not in m:
-            print(f"[warn] monsters[{i}] floors 누락 → 제외"); continue
+        if m.get("img"):
+            m["img"] = _norm_asset_path(m["img"])
+        if m.get("boss_img"):
+            m["boss_img"] = _norm_asset_path(m["boss_img"])
 
-        floors = m["floors"]
-        def _ok_floor(f):
-            return (isinstance(f, int)) or (isinstance(f, list) and len(f) == 2 and all(isinstance(x, int) for x in f))
-        if isinstance(floors, list):
-            if not (_ok_floor(floors) or all(_ok_floor(x) for x in floors)):
-                print(f"[warn] monsters[{i}] floors 형식 이상 → 제외: {floors}"); continue
-        elif not isinstance(floors, int):
-            print(f"[warn] monsters[{i}] floors 형식 이상 → 제외: {floors}"); continue
-
-        if m.get("boss") and not m.get("boss_img"):
-            print(f"[warn] monsters[{i}] boss=true지만 boss_img 없음 → 제외"); continue
-
+        for s in m.get("skills", []) or []:
+            if s.get("area_img"):
+                s["area_img"] = _norm_asset_path(s["area_img"])
+                
         valid.append(m)
+        
     return valid
