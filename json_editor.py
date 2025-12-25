@@ -218,10 +218,13 @@ class MonstersEditor(tk.Tk):
         # rush/link 체크박스
         self.var_s_rush = tk.BooleanVar(value=False)
         self.var_s_link = tk.BooleanVar(value=False)
+        self.var_s_rangecheck = tk.BooleanVar(value=False)
+
         opts = ttk.Frame(fields)
         opts.grid(row=r, column=1, sticky="w", pady=2)
         ttk.Checkbutton(opts, text="rush", variable=self.var_s_rush).grid(row=0, column=0, padx=4)
         ttk.Checkbutton(opts, text="link", variable=self.var_s_link).grid(row=0, column=1, padx=12)
+        ttk.Checkbutton(opts, text="rangeCheckX", variable=self.var_s_rangecheck).grid(row=0, column=2, padx=12)
         r += 1
 
         ttk.Label(fields, text="size (0/1/2)").grid(row=r, column=0, sticky="e", padx=6, pady=2)
@@ -369,6 +372,7 @@ class MonstersEditor(tk.Tk):
         self.combo_s_cast.current(cast_val)
         self.var_s_rush.set(bool(s.get("rush", False)))
         self.var_s_link.set(bool(s.get("link", False)))
+        self.var_s_rangecheck.set(bool(s.get("rangeCheck", False))) 
 
     # ---------------- Missing UI/File helper methods (added) ----------------
     def refresh_monster_list(self):
@@ -412,6 +416,7 @@ class MonstersEditor(tk.Tk):
             self.combo_s_size.current(0)
         self.var_s_rush.set(False)
         self.var_s_link.set(False)
+        self.var_s_rangecheck.set(False) 
 
     def refresh_skill_list(self):
         self.list_skills.delete(0, tk.END)
@@ -703,6 +708,7 @@ class MonstersEditor(tk.Tk):
             raise ValueError("size는 0/1/2/3/4 중 하나여야 합니다.")
         rush = bool(self.var_s_rush.get())
         link = bool(self.var_s_link.get())
+        rcheck = bool(self.var_s_rangecheck.get())
         return {
             "name": name,
             "area_img": area_img,
@@ -711,6 +717,7 @@ class MonstersEditor(tk.Tk):
             "size": size,
             "rush": rush,
             "link": link,
+            "rangeCheck": rcheck,
         }
 
     def _sync_skills_amount(self, monster: Dict[str, Any]):

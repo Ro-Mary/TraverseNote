@@ -2146,7 +2146,7 @@
                         "ja": "ナクルウェープ"
                     },
                     "area_img": "data\\skillran\\circle.png",
-                    "desc": "이후 버스터 너클로 연계.",
+                    "desc": "이후 분쇄 주먹으로 연계.",
                     "cast": 0,
                     "size": 1,
                     "rush": true,
@@ -4012,7 +4012,7 @@
                     "area_img": "data\\skillran\\plus.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 2,
+                    "size": 1,
                     "rush": false,
                     "link": false
                 }
@@ -4098,7 +4098,7 @@
                     "area_img": "data\\skillran\\fronthalf.png",
                     "desc": "팔의 위치에 따라 달라짐.\n앞을 향하면 정면.",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": false
                 },
@@ -4111,7 +4111,7 @@
                     "area_img": "data\\skillran\\half_back.png",
                     "desc": "팔의 위치에 따라 달라짐.\n위를 향하면 후방.",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
                     "link": false
                 }
@@ -4858,7 +4858,7 @@
                         "ja": "クロスレーザー"
                     },
                     "area_img": "data\\skillran\\plus.png",
-                    "desc": "캐스팅바가 보이지 않음.",
+                    "desc": "캐스팅바가 보이지 않음.\n공격 전조로 파악 가능함.",
                     "cast": 0,
                     "size": 2,
                     "rush": false,
@@ -4871,7 +4871,7 @@
                         "ja": "サークルレーザー"
                     },
                     "area_img": "data\\skillran\\dynamo.png",
-                    "desc": "캐스팅바가 보이지 않음.",
+                    "desc": "캐스팅바가 보이지 않음.\n공격 전조로 파악 가능함.",
                     "cast": 0,
                     "size": 2,
                     "rush": false,
@@ -4884,7 +4884,7 @@
         {
             "tag": 714,
             "name": {
-                "ko": "프로파니티",
+                "ko": "면제된 모독",
                 "en": "Forgiven Profanity",
                 "ja": "フォーギヴン・プロファニティー"
             },
@@ -5226,7 +5226,7 @@
             "stun": true,
             "aggro": 0,
             "roaming": true,
-            "warning": 1,
+            "warning": 0,
             "skills_Amount": 1,
             "skills": [
                 {
@@ -5538,7 +5538,7 @@
             "stun": true,
             "aggro": 0,
             "roaming": false,
-            "warning": 1,
+            "warning": 0,
             "skills_Amount": 3,
             "skills": [
                 {
@@ -5750,7 +5750,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -6048,7 +6049,7 @@
             "stun": true,
             "aggro": 0,
             "roaming": true,
-            "warning": 1,
+            "warning": 0,
             "skills_Amount": 2,
             "skills": [
                 {
