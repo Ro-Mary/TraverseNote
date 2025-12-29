@@ -5327,7 +5327,7 @@
             "stun": false,
             "aggro": 0,
             "roaming": false,
-            "warning": 1,
+            "warning": 0,
             "skills_Amount": 2,
             "skills": [
                 {
