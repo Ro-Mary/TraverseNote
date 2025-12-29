@@ -1466,7 +1466,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -1889,7 +1890,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -2123,7 +2125,7 @@
             "stun": false,
             "aggro": 0,
             "roaming": false,
-            "warning": 1,
+            "warning": 2,
             "skills_Amount": 4,
             "skills": [
                 {
@@ -2163,7 +2165,8 @@
                     "cast": 1,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -2203,7 +2206,7 @@
             "skills": [
                 {
                     "name": {
-                        "ko": "석화의 빛",
+                        "ko": "축성의 빛",
                         "en": "Petrifying Light",
                         "ja": "聖別の光"
                     },
@@ -2212,7 +2215,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": false
                 }
             ],
             "boss": false,
@@ -2246,9 +2250,10 @@
                     "area_img": "data\\skillran\\half_left.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 2,
+                    "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -2259,9 +2264,10 @@
                     "area_img": "data\\skillran\\half_right.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 2,
+                    "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -2502,7 +2508,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -2515,7 +2522,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -2564,7 +2572,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -2749,7 +2758,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -2762,7 +2772,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -2812,7 +2823,8 @@
                     "cast": 1,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -2910,7 +2922,8 @@
                     "cast": 1,
                     "size": 0,
                     "rush": true,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3058,11 +3071,12 @@
                         "ja": "テールスクリュー"
                     },
                     "area_img": "data\\skillran\\circle.png",
-                    "desc": "최대체력의 80% 피해.",
+                    "desc": "",
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": false
                 },
                 {
                     "name": {
@@ -3394,7 +3408,8 @@
                     "cast": 1,
                     "size": 1,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3407,7 +3422,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3456,7 +3472,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -3505,7 +3522,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3518,7 +3536,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -3554,7 +3573,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3567,7 +3587,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3580,7 +3601,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -3649,7 +3671,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -3735,7 +3758,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -3785,7 +3809,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -3827,7 +3852,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": true,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3840,7 +3866,8 @@
                     "cast": 1,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3885,11 +3912,12 @@
                         "ja": "レフトサンド・ショックウェーブ"
                     },
                     "area_img": "data\\skillran\\half_left.png",
-                    "desc": "사용 후, 반대편 쇼크웨이브를 즉시 사용.",
+                    "desc": "사용 후, 반대편 충격파를 즉시 사용.",
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3898,11 +3926,12 @@
                         "ja": "ライトサンド・ショックウェーブ"
                     },
                     "area_img": "data\\skillran\\half_right.png",
-                    "desc": "사용 후, 반대편 쇼크웨이브를 즉시 사용.",
+                    "desc": "사용 후, 반대편 충격파를 즉시 사용.",
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -3952,7 +3981,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4014,7 +4044,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4051,7 +4082,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4100,7 +4132,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4113,7 +4146,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4150,7 +4184,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4210,9 +4245,10 @@
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "",
                     "cast": 0,
-                    "size": 1,
+                    "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4248,7 +4284,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4261,7 +4298,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4354,7 +4392,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4403,7 +4442,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4439,7 +4479,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4452,7 +4493,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4530,7 +4572,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4543,7 +4586,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4565,7 +4609,7 @@
             "stun": false,
             "aggro": 0,
             "roaming": true,
-            "warning": 1,
+            "warning": 0,
             "skills_Amount": 1,
             "skills": [
                 {
@@ -4579,7 +4623,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4615,7 +4660,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4651,7 +4697,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4701,7 +4748,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4714,7 +4762,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4751,7 +4800,8 @@
                     "cast": 2,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4764,7 +4814,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4813,7 +4864,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4826,7 +4878,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4858,11 +4911,12 @@
                         "ja": "クロスレーザー"
                     },
                     "area_img": "data\\skillran\\plus.png",
-                    "desc": "캐스팅바가 보이지 않음.\n공격 전조로 파악 가능함.",
+                    "desc": "캐스팅바가 없으나 공격 전조로 파악 가능함.\n수면으로 캔슬 가능.",
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4871,11 +4925,12 @@
                         "ja": "サークルレーザー"
                     },
                     "area_img": "data\\skillran\\dynamo.png",
-                    "desc": "캐스팅바가 보이지 않음.\n공격 전조로 파악 가능함.",
+                    "desc": "캐스팅바가 없으나 공격 전조로 파악 가능함.\n수면으로 캔슬 가능.",
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4927,11 +4982,12 @@
                         "ja": "ののしる"
                     },
                     "area_img": "",
-                    "desc": "랜덤 대상에게 슬로우 디버프 부여.",
+                    "desc": "랜덤 대상에게 슬로우 디버프 부여.\n해제 가능.",
                     "cast": 1,
                     "size": 4,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": false
                 },
                 {
                     "name": {
@@ -4944,7 +5000,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -4980,7 +5037,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -4989,11 +5047,12 @@
                         "ja": "嚙み殺す"
                     },
                     "area_img": "",
-                    "desc": "사실상 즉사기.\n차단 가능.",
+                    "desc": "차단 가능.",
                     "cast": 0,
                     "size": 3,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": false
                 }
             ],
             "boss": false,
@@ -5030,7 +5089,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5080,7 +5140,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": true,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5089,11 +5150,12 @@
                         "ja": "ストームスラッシュ"
                     },
                     "area_img": "data\\skillran\\corn_front.png",
-                    "desc": "랜덤 대상에게 돌진 후 사용.",
+                    "desc": "대상에게 돌진 후 사용.",
                     "cast": 0,
                     "size": 0,
                     "rush": true,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5155,7 +5217,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5191,7 +5254,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5226,7 +5290,7 @@
             "stun": true,
             "aggro": 0,
             "roaming": true,
-            "warning": 0,
+            "warning": 1,
             "skills_Amount": 1,
             "skills": [
                 {
@@ -5277,7 +5341,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5290,7 +5355,8 @@
                     "cast": 1,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5403,7 +5469,8 @@
                     "cast": 1,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5418,6 +5485,7 @@
             },
             "img": "./data/81-90/811.png",
             "floors": [
+                86,
                 87,
                 88,
                 89
@@ -5439,7 +5507,8 @@
                     "cast": 2,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5447,12 +5516,13 @@
                         "en": "Abyssal Ray",
                         "ja": "アビサルレイ"
                     },
-                    "area_img": "data\\skillran\\large_square.png",
+                    "area_img": "data\\skillran\\square.png",
                     "desc": "벽 뒤로 회피 불가능.",
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5500,9 +5570,10 @@
                     "area_img": "data\\skillran\\corn_front.png",
                     "desc": "차단 가능.\n시전이 빠르므로 주의.",
                     "cast": 0,
-                    "size": 2,
+                    "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5515,7 +5586,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5552,7 +5624,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5565,7 +5638,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5578,7 +5652,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5629,12 +5704,13 @@
                         "en": "Rotten Stench",
                         "ja": "ロトンステンチ"
                     },
-                    "area_img": "data\\skillran\\large_square.png",
+                    "area_img": "data\\skillran\\square.png",
                     "desc": "벽 뒤로 회피 불가능.",
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5696,7 +5772,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5737,7 +5814,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5788,7 +5866,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5837,7 +5916,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5846,11 +5926,12 @@
                         "ja": ""
                     },
                     "area_img": "data\\skillran\\corn_back.png",
-                    "desc": "뒤에 누군가 있을경우 즉시 시전.\n탱이 어그로 잡는걸 확인하고 칠것.",
+                    "desc": "뒤에 누군가 있을경우 즉시 시전.\n어글자는 맨 앞에서, 머리 돌리지 않도록 주의.",
                     "cast": 1,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5912,7 +5993,8 @@
                     "cast": 1,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -5951,7 +6033,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5964,7 +6047,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -5977,7 +6061,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -6063,7 +6148,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -6076,7 +6162,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -6112,7 +6199,8 @@
                     "cast": 0,
                     "size": 0,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -6161,7 +6249,8 @@
                     "cast": 0,
                     "size": 1,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,
@@ -6197,7 +6286,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -6210,7 +6300,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": true
+                    "link": true,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -6259,7 +6350,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 },
                 {
                     "name": {
@@ -6272,7 +6364,8 @@
                     "cast": 0,
                     "size": 2,
                     "rush": false,
-                    "link": false
+                    "link": false,
+                    "rangeCheck": true
                 }
             ],
             "boss": false,

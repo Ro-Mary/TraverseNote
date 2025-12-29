@@ -67,8 +67,9 @@ class AttackInfoView(ctk.CTkScrollableFrame):
         self.img_rush = load("./data/skillstat/rush.png", (160, 45))
         self.img_link = load("./data/skillstat/link.png", (160, 45))
         self.img_strattack = load("./data/skillstat/strattack.png", (160, 45))
+        self.img_hidden = load("./data/skillstat/hidden.png", (40, 40))
 
-        # 인라인 렌더
+    # 인라인 렌더
     def _render_boss_inline(self, img_path: str):
         self.clear()
         try:
@@ -220,7 +221,7 @@ class AttackInfoView(ctk.CTkScrollableFrame):
 
             # 연계 시전?
             if s.get("link"):
-                ctk.CTkLabel(card, text="", image=self.img_link).place(relx=0.68, rely=0.86, anchor="w")               
+                ctk.CTkLabel(card, text="", image=self.img_link).place(relx=0.68, rely=0.86, anchor="w")
 
             # 범위 이미지
             area = s.get("area_img")
@@ -242,6 +243,10 @@ class AttackInfoView(ctk.CTkScrollableFrame):
                 lbl.place(relx=0.02, rely=0.5, anchor="w")
             else:
                 lbl.place(relx=0.07, rely=0.45, anchor="w")
+
+            # AOE
+            if s.get("rangeCheck"):
+                ctk.CTkLabel(card, text="", image=self.img_hidden).place(relx=0.295, rely=0.85, anchor="w")
 
         self._fix_scrollregion()
         if hasattr(self, "_scrollrouter_refresh"):
