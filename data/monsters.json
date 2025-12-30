@@ -4462,7 +4462,7 @@
                 72,
                 73
             ],
-            "stun": true,
+            "stun": false,
             "aggro": 0,
             "roaming": true,
             "warning": 1,
